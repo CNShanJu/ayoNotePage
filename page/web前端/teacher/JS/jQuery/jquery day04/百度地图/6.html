@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- 引入百度地图的在线 JS-SDK  -->
+		<script src="http://api.map.baidu.com/api?v=3.0&ak=isS7SwIUMx25en8CNxbsbHbQsmaEZB4f">
+		</script>
+		<style>
+		  html{
+			  height: 100%;
+		  }
+		  body{
+			  height: 100%;
+			  margin:0px;
+			  padding: 0px;  
+		  }
+		  #container{
+			  width:100%;
+			  height: 100%;
+		  }
+		  .map_h5{
+			  background-color: #005CBF;
+			  color: #fff;
+			  padding: 2px 5px;
+		  }
+		  .map_cicle{
+			  width:100px;
+			  height: 100px;
+			  background-color: #24bc79;
+			  /* border:5px solid #fff; */
+			  color: #fff;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+			  border-radius: 50%;
+			  
+		  }
+		</style>
+	</head>
+	<body>
+		<!-- 放地图 -->
+		<div id="container"></div>
+		<script>
+		// 创建地图的实例
+		const map=new BMap.Map("container");
+		// 设置缩放级别
+		map.centerAndZoom("长沙市汽车西站",19);
+		// 百度地图的api事件独立的，与标准的dom事件不同，事件对象也不同
+		map.addEventListener("click",function(e){
+			console.log("你点击的坐标",e.point);
+		})
+		</script>
+	</body>
+</html>

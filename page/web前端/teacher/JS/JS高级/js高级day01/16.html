@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			// 数组的元素是一个函数，函数被数组索引调用，this就是指向这个数组。
+			// var a=5;
+			// function fn(){
+			// 	console.log(this.a);
+			// }
+			
+			
+			// var obj={
+			// 	"a":1,
+			// 	"b":2,
+			// 	"c":[
+			// 		{"a":3,
+			// 		 "b":4,
+			// 		 "c":fn
+			// 		}
+					
+					
+			// 	]
+			// }
+			
+			// obj.c[0].c();//3
+			
+			
+			var arr=[1,2,function(){
+				console.log(this[1])
+			},5]
+			
+			arr[2]();
+			
+			
+		</script>
+	</body>
+</html>

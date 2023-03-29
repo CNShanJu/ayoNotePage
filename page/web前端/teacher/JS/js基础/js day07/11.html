@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var arr=[
+				{title:"aaa",read:100,hot:true},
+				{title:"bbb",read:1000,hot:false},
+				{title:"ccc",read:1007,hot:true},
+				{title:"ddd",read:100,hot:true}
+			]
+			
+			var t=arr.every(function(item,index,arr){
+               return item.hot==true				
+			})
+			console.log(t);
+			
+			
+		</script>
+	</body>
+</html>

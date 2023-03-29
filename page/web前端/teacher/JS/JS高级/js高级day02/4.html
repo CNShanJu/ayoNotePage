@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function test(a,b){
+			    console.log(a)
+			    var a=123;
+				console.log(a);
+			     function a(){}
+			    console.log(b)
+			    var b=234;
+			    console.log(b)
+			    function b(){}
+			    console.log(a)
+			    var b=function(){}
+			    console.log(b)
+			}
+			
+			test(1)
+			
+			// ƒ a(){}
+			//ƒ b(){}
+			// 234
+			// 123
+			// ƒ (){}
+			
+		</script>
+		
+		创建AO对象（Activation Object）执行期上下文。
+		A0={}
+		找形参和变量声明，将变量和形参名作为AO属性名，值为undefined
+		AO={
+			a:undefined,
+			b:undefined,
+			
+		}
+		将实参值和形参统一。
+		AO={
+			a:1,
+			b:undefined,
+			
+		}
+		
+		在函数体里面找函数声明，值赋予函数体。
+		AO={
+			a:function(){},
+			b:function(){},
+		}
+		
+	</body>
+</html>

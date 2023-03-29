@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<button id="getCookie">get</button>
+		<button id="setCookie">set</button>
+		
+		<script type="text/javascript">
+			window.onload=function(){
+				// document.cookie='username=sk';
+				
+				var getCookie=document.getElementById("getCookie");
+				getCookie.addEventListener("click",getresult,true);
+				setCookie.addEventListener("click",setresult,true);
+				
+				
+			}
+			
+			function getresult(){
+				var x=document.cookie;
+				console.log(x);
+				
+			}
+			
+			function setresult(){
+				document.cookie='sex=nan';
+			}
+			
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<button id="btn">btn</button>
+		<div id="test"></div>
+		
+		<script>
+		var x=document.getElementById("btn");
+		var test=document.getElementById("test");
+		x.addEventListener("mouseover",myFunction1);
+		x.addEventListener("click",myFunction2);
+		x.addEventListener("mouseout",myFunction3);
+		
+		function myFunction1(){
+			test.innerHTML="经过"
+		}
+		
+		function myFunction2(){
+			test.innerHTML="点击"
+		}
+		
+		function myFunction3(){
+			test.innerHTML="离开"
+		}
+		
+		</script>
+		
+	</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		    function Dog(){
+				
+			}
+			function P(name,age){
+				this.name=name;
+				this.age=age;
+				
+			}
+		 	var xiaoming=new P("xiaoming",12);
+			console.log(xiaoming);
+			console.log(xiaoming instanceof P);
+			console.log(xiaoming instanceof Dog);//false;
+			console.log(xiaoming instanceof Object);//true
+			
+		</script>
+	</body>
+</html>

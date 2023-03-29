@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			#outbox {
+				width: 600px;
+				height: 600px;
+				background-color: red;
+				overflow: hidden;
+
+			}
+
+			#middlebox {
+				width: 400px;
+				height: 400px;
+				background-color: yellow;
+				margin: 100px auto;
+				overflow: hidden;
+
+			}
+			
+			#innerbox {
+				width: 200px;
+				height: 200px;
+				background-color: green;
+				margin: 100px auto;
+			
+			}
+		</style>
+	</head>
+	<body>
+		<div id="outbox" onclick="add(event)">
+			<div id='middlebox' onclick="add(event)">
+				<div id="innerbox" onclick="add(event)">
+				</div>
+			</div>
+		</div>
+		
+		<script>
+		  function add(evt){
+			  // console.log("113");
+			  // console.log(e)
+			  // e.stopPropagation(); //阻止事件冒泡
+			  // console.log("123");
+			  // if(window.e){
+			  // }
+			  
+			  var e=evt||window.event;
+			  if(e.stopPropagation){
+				   e.stopPropagation();
+			  }else{
+				  e.cancelBubble=true
+			  }
+			  console.log("123")
+			  
+			  
+		  }
+		
+		
+		</script>
+		
+	</body>
+</html>

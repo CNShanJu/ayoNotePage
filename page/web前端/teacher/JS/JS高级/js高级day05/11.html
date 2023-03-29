@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			// function Class(){
+				
+			// }
+			// Class.prototype.__proto__.prop=1;
+			// Class.prototype=new Class();
+			// console.log(new Class().prop);//
+			
+			
+			
+			function Class(){
+				
+			}
+			Class.prototype=Class;
+			Class.__proto__.prop=1;
+			console.log(new Class().prop);//
+			
+			
+		</script>
+	</body>
+</html>

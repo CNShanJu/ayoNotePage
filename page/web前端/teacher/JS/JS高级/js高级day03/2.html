@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		
+		
+		<script>
+		   function	 Star(name,age,sex,dizhi){
+			   this.name=name;
+			   this.age=age;
+			   this.sex=sex;
+			   this.dizhi=dizhi;
+			   this.img=document.createElement("img");  //<img>
+			   this.img.src=this.dizhi;
+			   document.body.appendChild(this.img);
+			   // this.zisha=function(){
+				  //  document.body.removeChild(this.img)
+			   // }
+		   }
+		   
+		   Star.prototype.zisha=function(){
+			   document.body.removeChild(this.img)
+		   }
+		   
+		   var lbb=new Star("lbb",45,'女','./lbb.jpg');
+		   lbb.zisha();
+		   var fbb=new Star("fbb",50,'女','./fbb.jpg');
+		   var tw=new Star("tw",48,'女','./tw.jpg');
+		   var jxw=new Star("jxw",35,'男','./jxw.png');
+		   // jxw.zisha();
+		   console.log(lbb.zisha==fbb.zisha);
+		   
+		</script>
+	</body>
+</html>

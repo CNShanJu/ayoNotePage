@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+	</head>
+
+	<body>
+		<table id="table" cellpadding=2 border="1" cellspacing=0 width=500px style="text-align: center;">
+			<thead>
+				<tr>
+					<td>商品名称</td>
+					<td>商品价格</td>
+					<td>备注</td>
+				</tr>
+			</thead>
+			<!-- <tr>
+        <td>iphone5</td>
+        <td>￥200.00</td>
+        <td><a href="">删除</a></td>
+      </tr>
+      <tr>
+        <td>电饭锅</td>
+        <td>￥500.00</td>
+        <td><a href="">删除</a></td>
+      </tr>
+    </tbody> -->
+			<tfoot>
+				<tr>
+					<td colspan="3"><button id="but">增加<tton>
+					</td>
+				</tr>
+			</tfoot>
+
+		</table>
+		<button id="btn" onclick="add()">bten</button>
+		<script>
+			function add() {
+				alert("add");
+			}
+
+			window.onload = function() {
+
+				var table = document.getElementById("table");
+				var but = document.getElementById("but");
+				tbody = table.createTBody();
+				var tr = tbody.insertRow(0);
+				tr.insertCell(0).innerHTML = "仿真牛皮鞋";
+				tr.insertCell(1).innerHTML = "12";
+				tr.insertCell(2).innerHTML = '<button onclick="delRow()">删除</button>';
+				var tr1 = tbody.insertRow(1);
+				tr1.insertCell(0).innerHTML = "仿真牛皮鞋";
+				tr1.insertCell(1).innerHTML = "12";
+				tr1.insertCell(2).innerHTML = '<button onclick="delRow()">删除</button>';
+				but.onclick = function() {
+					var tr = tbody.insertRow(2);
+					tr.insertCell(0).innerHTML = "仿真牛皮鞋";
+					tr.insertCell(1).innerHTML = "12";
+					tr.insertCell(2).innerHTML = '<button>删除</button>';
+					addEventBtn()
+				}
+
+
+
+				addEventBtn()
+			}
+
+			function addEventBtn() {
+				var btns = tbody.querySelectorAll("button");
+				console.log(btns);
+				for (var i = 0; i < btns.length; i++) {
+					btns[i].onclick = delRow
+				}
+			}
+
+
+			function delRow() {
+
+				var trs = this.parentNode.parentNode
+				tbody.removeChild(trs);
+				// var table = document.getElementById("table");
+				// var rowIndex = this.parentNode.parentNode;
+				// onsole.log(i);
+				// table.deleteRow(rowIndex);
+			}
+		</script>
+	</body>
+
+	<html>

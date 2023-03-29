@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="./jquery.js"></script>
+	</head>
+	<body>
+		<script>
+			$(function() {
+				$.myFunction1();
+				$.myFunction2();
+                $.myFunction3();
+
+			})
+            // 实现自定义jq的全局的方法
+			jQuery.myFunction1 = function() {
+
+				console.log("1");
+
+			}
+			
+			
+
+			jQuery.myFunction2 = function() {
+
+				console.log("2");
+
+			}
+
+			jQuery.myFunction3 = function() {
+
+				console.log("3");
+
+			}
+			
+			// 如果自定义的全局的方法比较多的时候，上面这种定义全局的方法，就不太好去管理了。
+			// 通过extend函数，整合全局的函数，方便统一管理
+			
+		</script>
+	</body>
+</html>

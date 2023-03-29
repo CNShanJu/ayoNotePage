@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="text" id='text'/>
+		<script>
+		  var text=document.getElementById("text");
+		  
+		  // 当用户按下任意键盘触发，如果按照不放，会重复触发。
+		  // text.onkeydown=function(){
+			 //  console.log("onkeydown");
+			  
+		  // }
+		  
+		  // text.onkeypress=function(){
+			 //  console.log("onkeypress");
+		  // }
+		  
+		  text.onkeyup=function(){
+			  console.log("keyup");
+		  }
+		
+		
+		</script>
+	</body>
+</html>

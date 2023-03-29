@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var a;
+			function fun(){
+			
+			}
+			function abc(){
+			
+			}
+			function a(){
+			
+			}
+			console.log(a);
+			var a = 100;
+			 console.log(a);
+
+		</script>
+		全局预编译的3个步骤：
+		创建GO对象（Global Object）全局对象。
+		GO={}
+		找变量声明，将变量名作为GO属性名，值为undefined
+		GO={a:undefined}
+		查找函数声明，作为GO属性，值赋予函数体
+		GO={a:function(){
+			
+		   },
+		    fun:function(){
+				
+			},
+		    abc:function(){
+				
+			}
+			
+		}
+		
+		
+		局部预编译的4个步骤：
+		创建AO对象（Activation Object）执行期上下文。
+		找形参和变量声明，将变量和形参名作为AO属性名，值为undefined
+		将实参值和形参统一。
+		在函数体里面找函数声明，值赋予函数体。
+		
+		
+	</body>
+</html>

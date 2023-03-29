@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<a href="3.html">3.html</a>
+		<button onclick="goto()">跳转到1.html</button>
+		<button onclick="goto1()">跳转到3.html</button>
+		
+		<script>
+		 function goto(){
+			 // window.history.back();
+			 window.history.go(-1);
+			 
+		 }
+		 
+		 function goto1(){
+		 		// window.history.forward();
+		 			  window.history.go(1);
+		 }
+		
+		</script>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function People(name){
+				this.name=name;
+			}
+			
+			// People.prototype.haha=function(){
+			// 	console.log(this.name);
+			// }
+			
+			// People.prototype.xixi=function(){
+			// 	console.log(this.name);
+			// }
+			People.prototype={
+				"haha":function(){
+					console.log(this.name)
+				},
+				"xixi":function(){
+					console.log(this.name);
+				}
+			}
+			
+			
+			var xiaohong=new People("xiaohong")
+			xiaohong.haha();
+			xiaohong.xixi();
+			console.log(xiaohong.__proto__);
+			console.log(xiaohong.__proto__.constructor);
+			
+		</script>
+	</body>
+</html>

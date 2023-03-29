@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="box" title="mybox" names="sk" age='16'  >
+			box
+		</div>
+		<script type="text/javascript">
+			window.onload=function(){
+				var box=document.getElementById("box");
+				console.log(box.title);
+				// console.log(box.names);
+				var value=box.getAttribute("names")
+				console.log(value);
+				
+				box.setAttribute("age",13);
+				// box.style.fontSize="50px";
+				box.removeAttribute("age");
+				
+				// box.removeAttribute("id");
+				
+			}
+			
+		</script>
+		
+	</body>
+</html>

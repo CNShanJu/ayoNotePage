@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+		  var provs=["北京市","天津市"];
+		  
+		  var cities=[
+			  ["朝阳区",'东城区'],
+			  ["南开区",'和平区']
+		  ]
+		  var index;
+		  
+		  
+		  var c=getCity('北京市');
+		  console.log(c);
+		  
+		  function getCity(prov){
+			  for(var i=0;i<provs.length;i++){
+				  if(prov==provs[i]){
+					  index=i;
+				  }
+			  }
+			  if(index!=undefined){
+				  return cities[index];
+			  }
+		  }
+		
+		
+		
+		</script>
+	</body>
+</html>

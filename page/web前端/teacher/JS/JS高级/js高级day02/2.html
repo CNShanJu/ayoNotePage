@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		   
+		
+			function fn(a){
+			      console.log(a);  //function(){}
+				// 变量声明+变量赋值（只提升变量声明，不提升变量赋值）
+				var a = 123;
+				console.log(a); //123
+				// 函数声明
+				function a(){};
+				console.log(a); //123
+				// 函数表达式
+				console.log(b);
+				var b = function(){};
+				console.log(b); //function(){}
+				// 函数
+				 function d(){};
+			}
+			//调用函数
+			fn(1);
+			
+			
+			// 第三步：将实参值和形参值统一(也就是说把实参值传到形参中)
+			// AO{
+			// 	a:1,//形参a
+			// 	b:undefined //变量b
+			// }
+			
+			// 第四步：在函数体里面找函数声明，值赋予函数体
+			// AO{
+			// 	a:function(){},//形参a
+			// 	b:undefined //变量b
+			// 	d:function(){}
+			// }
+			
+			
+		</script>
+	</body>
+</html>

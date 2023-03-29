@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+		  ul{
+			  overflow: hidden;
+			  border: 1px solid red;
+			  
+		  }
+		  ul li{
+			  float: left;
+			  width:100px;
+			  height: 30px;
+			  list-style: none;
+			  
+		  }
+		  .active{
+			  background-color: yellow;
+		  }
+		
+		</style>
+		<script src="./jquery.js"></script>
+	</head>
+	<body>
+		<ul id="navbox">
+			<li>index</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ul>
+		
+		
+		<script>
+		  $("#navbox li").click(function(){
+			  console.log("2120120")
+			  console.log(this)
+			  $(this).addClass("active").siblings().removeClass("active");
+		  })
+		
+		
+		</script>
+		
+	</body>
+</html>

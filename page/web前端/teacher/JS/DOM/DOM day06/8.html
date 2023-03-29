@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<input type="button" id="btn1" value="按下" />
+		
+		 <script>
+		   // window.addEventListener('load',init,false);
+		   myAttachEvent(window,'load',init);
+		   function init(){
+			   var btn1=document.getElementById("btn1");
+			   myAttachEvent(btn1,'click',function(){
+				   console.log("aaaaa");
+			   })
+		   }
+		 
+		    // 处理addEventListener的兼容性的问题
+			// 如果是在ie低版本
+			// obj.attachEvent('on'+事件类型，fn)
+			// 如果是在ie高版本 或者主流的浏览器
+			// obj.addEventListener(事件类型，fn，false)
+			// obj就是dom的对象
+		    function myAttachEvent(obj,ev,fn){
+				if(obj.attachEvent){  //如果obj 有attachEvent这个方法
+				console.log("到这里来了");
+				   obj.attachEvent('on'+ev,fn)
+					
+				}else{
+					obj.addEventListener(ev,fn,false);
+				}
+			}
+		 
+		 </script>
+	</body>
+</html>

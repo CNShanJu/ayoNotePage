@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+		  var obj1={a:1,b:2};
+		  
+		  function add(){
+			  
+		  }
+		  
+		  console.log(add.__proto__);//Function.prototype;
+		  
+		  add.__proto__=obj1;
+		  
+		  console.log(add.__proto__);
+		</script>
+	</body>
+</html>

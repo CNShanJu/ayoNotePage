@@ -1,0 +1,37 @@
+.<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width: 233px;
+				height: 560px;
+				background-image: url(./deng.jpg);
+				background-position: 0px;
+				
+			}
+			
+		</style>
+	</head>
+	<body>
+		<script>
+		  function Deng(){
+			  this.width=233;
+			  this.state=0;
+			  
+			  this.dom=document.createElement("div");
+			  document.body.appendChild(this.dom);
+			  var self=this;
+			  this.dom.onclick=function(){
+				  self.state++;
+				  this.style.backgroundPosition=-self.state*self.width+'px';
+			  }
+			  
+		  }
+		  new Deng();
+		
+		
+		</script>
+	</body>
+</html>

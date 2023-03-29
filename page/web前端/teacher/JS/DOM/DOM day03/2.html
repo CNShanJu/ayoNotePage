@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<script>
+		  var table=document.createElement("table");
+		  table.border=1;
+		  table.width=300;
+		  table.createCaption().innerHTML="人员表";
+		  var thead=table.createTHead();
+		  var tr=table.insertRow(0);
+		  var td=tr.insertCell(0);
+		  var td1=tr.insertCell(1);
+		  td.innerHTML="xiaoming";
+		  td1.innerHTML=15;
+		  document.body.appendChild(table);
+		</script>
+	</body>
+</html>

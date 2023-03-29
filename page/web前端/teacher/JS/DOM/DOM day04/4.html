@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<style>
+			table {
+				border-collapse: collapse;
+			}
+
+			thead {
+				background-color: #999;
+			}
+
+			td {
+				border: 1px solid black;
+			}
+
+			a {
+				color: blue;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+			// 将页面的数据存放到一个数组中
+			var arr = [{
+					id: 1,
+					name: "阿伟",
+					subject: "语文",
+					score: 86
+				}, {
+					id: 2,
+					name: "阿熊",
+					subject: "语文",
+					score: 91
+				}, {
+					id: 2,
+					name: "小刘",
+					subject: "语文",
+					score: 92
+				}, {
+					id: 2,
+					name: "小刘",
+					subject: "语文",
+					score: 92
+				}, {
+					id: 2,
+					name: "小刘",
+					subject: "语文",
+					score: 92
+				}, {
+					id: 2,
+					name: "小刘",
+					subject: "语文",
+					score: 92
+				}, {
+					id: 2,
+					name: "小刘",
+					subject: "语文",
+					score: 92
+				}, {
+					id: 2,
+					name: "小刘",
+					subject: "语文",
+					score: 92
+				},
+
+			]
+
+			window.onload = function() {
+				// 创建一个表格
+				var table = document.createElement("table");
+				var body = document.getElementsByTagName("body")[0];
+				console.log(body);
+				body.appendChild(table);
+				// 创建表头
+				var thead = table.createTHead();
+
+				var str = "";
+				str += "<tr>";
+				str += "<td>编号</td>";
+				str += "<td>姓名</td>";
+				str += "<td>科目</td>";
+				str += "<td>分数</td>";
+				str += "<td>操作</td>";
+				str += "</tr>";
+				// var str=`
+				//   <tr>
+				//     <td>编号</td>
+				// 	<td>姓名</td>
+				// 	<td>科目</td>
+				// 	<td>操作</td>
+				// 	<td>分数</td>
+				//   </tr>
+
+
+				// `
+
+
+				thead.innerHTML = str;
+
+				// var tr=thead.insertRow(0);
+				// 创建表头的五个单元格
+				// var td1=tr.insertCell(0);
+				// td1.innerHTML="编号";
+				// var td2=tr.insertCell(1);
+				// td2.innerHTML="姓名";
+				// var td3=tr.insertCell(2);
+				// td3.innerHTML="科目";
+				// var td4=tr.insertCell(3);
+				// td4.innerHTML="分数";
+				// var td5=tr.insertCell(4);
+				// td5.innerHTML="操作";
+
+
+
+
+				// 将数组中的数据放置到页面中
+				tbody = document.createElement("tbody");
+				table.appendChild(tbody)
+				var str1 = "";
+				for (var i = 0; i < arr.length; i++) {
+
+					str1 += "<tr>";
+					str1 += "<td>" + arr[i].id + "</td>";
+					str1 += "<td>" + arr[i].name + "</td>";
+					str1 += "<td>" + arr[i].subject + "</td>";
+					str1 += "<td>" + arr[i].score + "</td>";
+					str1 += "<td onclick='del(this)'>del</td>";
+					str1 += "</tr>"
+					// 创建tr
+					// var tr = tbody.insertRow(i)
+
+					// var td1 = tr.insertCell(0);
+					// td1.innerHTML = arr[i].id;
+
+					// var td2 = tr.insertCell(1);
+					// td2.innerHTML = arr[i].name;
+
+					// var td3 = tr.insertCell(2);
+					// td3.innerHTML = arr[i].subject;
+
+					// var td4 = tr.insertCell(3);
+					// td4.innerHTML = arr[i].score;
+
+					// var td5= tr.insertCell(4);
+					// var remove = document.createElement("a");
+					// remove.innerText = "删除";
+					// td5.appendChild(remove);
+
+
+					// 隔行换色
+					// if(i%2==0){
+					//     tr.style.backgroundColor="lightblue"
+					// }else{
+					//     tr.style.backgroundColor="lightyellow"
+					// }
+
+				}
+				tbody.innerHTML = str1;
+
+				changeBgColor();
+
+
+				// 删除行
+
+			}
+
+			function del(e) {
+				console.log(e);
+				var p = e.parentNode;
+				tbody.removeChild(p);
+				changeBgColor();
+			}
+
+
+			function changeBgColor() {
+				var trs = tbody.querySelectorAll("tr");
+				for (var i = 0; i < trs.length; i++) {
+					if (i % 2 == 0) {
+						trs[i].style.backgroundColor = "lightblue"
+					} else {
+						trs[i].style.backgroundColor = "lightyellow"
+					}
+
+				}
+
+			}
+		</script>
+	</body>
+</html>

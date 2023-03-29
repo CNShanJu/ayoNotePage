@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var sum=0;
+			for(var i=2;i<=100;i++){
+				// 假设i是质数
+				var flag=true;
+				for(var j=2;j<i;j++){
+					if(i%j==0){
+						flag=false;
+						break;
+					}
+				}
+				if(flag){
+					console.log(i);
+					sum+=i;
+					
+				}
+				
+				
+				
+				
+			}
+			
+			console.log(sum);
+			
+			
+			
+		</script>
+	</body>
+</html>

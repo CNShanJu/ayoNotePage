@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				width:82px;
+				height: 106px;
+				background-image: url(xnh.png);
+				background-position: 0px -212px;
+				background-repeat: no-repeat;
+				position: absolute;
+				left:0
+			}
+		</style>
+	</head>
+	<body>
+		
+		<script type="text/javascript">
+			function Girl(){
+				this.state=0;
+				this.x=0;
+				this.ismove=true;
+				this.dom=document.createElement("div");
+				document.body.appendChild(this.dom);
+				var self=this;
+				this.dom.onclick=function(){
+					if(self.ismove){
+						clearInterval(self.timer);
+						self.ismove=false;
+					}else{
+						self.move();
+						self.ismove=true;
+					}
+				}
+				this.move();
+			}
+			
+			Girl.prototype.move=function(){
+				var self=this;
+				this.timer=setInterval(function(){
+					self.state++;
+					self.x+=Math.floor(Math.random()*(20-1)+1);
+					if(self.state>=8){
+						self.state=0;
+					}
+					self.dom.style.backgroundPosition=-82*self.state+"px -212px";
+					self.dom.style.left=self.x+"px"
+				},300)
+			}
+			
+			new Girl();
+			new Girl();
+			new Girl();
+			new Girl();
+			new Girl();
+			new Girl();
+			new Girl();
+			
+			
+		</script>
+	</body>
+</html>

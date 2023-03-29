@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<table>
+			<thead>
+				<tr>
+					<td> 编号</td>
+					<td>姓名</td>
+					<td>生日</td>
+				</tr>
+			</thead>
+			<tbody>
+				
+				<!-- <tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr> -->
+				
+				<script type="text/javascript">
+					var data=[];
+					data.push([101,'tom','2015.03']);
+					data.push([102,'jill','2015.03']);
+					data.push([103,'sk','2015.03']);
+					data.push([104,'sk0','2015.03']);
+					
+					console.log(data);
+					
+					for(var i=0;i<data.length;i++){
+                       var row=data[i];						
+						console.log(row);
+						document.write("<tr>")
+						  for(var j=0;j<row.length;j++){
+							  document.write("<td>"+row[j]+"</td>");  
+						  }
+						document.write("</tr>")
+					}
+				</script>
+			</tbody>
+		</table>
+		
+		
+	</body>
+</html>

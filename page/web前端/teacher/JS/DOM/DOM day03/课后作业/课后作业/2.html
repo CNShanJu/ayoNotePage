@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div>
+			价格:<input type="number" id="price" value="120" /><br />
+			数量:<input type="number" id="num" /><br/>
+            支付方式:<select name="" id="pay">
+				    <option value="10">请选择支付方式</option>
+				     <option value="9">q</option>
+					 <option value="8">邮政</option>
+					 <option value="7">电话</option>
+					 <option value="6">银行</option>
+			</select><br/>
+			总价:<input type="text" id="sum" />
+			<button id="btn">计算看看</button>
+		</div>
+		
+		
+		<script>
+		  window.onload=function(){
+			  var btn=document.getElementById("btn");
+			  var price=document.getElementById("price");
+			  var num=document.getElementById("num");
+			  var pay=document.getElementById("pay");
+			  var sum=document.getElementById("sum");
+			  
+			  btn.onclick=function(){
+				  var rs=price.value*num.value*(pay.value/10);
+				  sum.value=rs;
+			  }
+			 
+		  }
+		
+		
+		</script>
+		
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<a href="https://www.baidu.com" id="link">百度</a>
+		<script>
+		 var link=document.getElementById("link");
+		 
+		 link.onclick=function(e){
+			 var e=e||event;
+			 e.preventDefault();// 取消默认的行为
+			 console.log("123456789");
+		 }
+		
+		
+		</script>
+		
+		
+	</body>
+</html>

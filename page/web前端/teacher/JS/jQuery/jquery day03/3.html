@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="./jquery.js"></script>
+	</head>
+	<body>
+		用户名:<input type="text" name="username" value="" />
+        密码:<input type="password" name="password" value="" />
+		
+		<button id="btn">btn</button>
+		
+		<table id="table">
+		</table>
+		
+		
+		<script>
+		  $("#btn").click(function(){
+			  
+			  // console.log($("input[name]"))
+			  console.log("xxxxx");
+			  console.log($("input[name='username']")) 
+			 var name=$("input[name='username']").val();
+			  console.log(name);
+			  var password=$("input[name='password']").val();
+			  console.log(password);
+			  tr=$("<tr></tr>");
+			  td1=$("<td>"+name+"</td>");
+			  td2=$("<td>"+password+"</td>");
+			  tr.append(td1);
+			  tr.append(td2);
+			  $("#table").append(tr);
+			  
+			  $("tr:even").css("background","red");
+			  $("tr:odd").css("background","blue");
+			  
+		  })
+		
+		
+		</script>
+		 
+	</body>
+</html>

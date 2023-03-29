@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var arr=[
+				{title:"aaa",read:100,hot:true},
+				{title:"bbb",read:1000,hot:true},
+				{title:"ccc",read:1007,hot:true},
+				{title:"ddd",read:100,hot:true}
+			]
+			
+			var newarr=arr.map(function(item,index,arr){
+			     var json={
+				 }
+				 json.t="***"+item.title+"**";
+				 json.r=item.read;
+				 json.hot=item.hot;
+				 return json;
+			})
+			console.log(newarr);
+			
+			
+			// var json={
+				
+			// }
+			// json.title="shaokjang";
+			// json.age="33";
+			// console.log(json);
+			
+		</script>
+	</body>
+</html>

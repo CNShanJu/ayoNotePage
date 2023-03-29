@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			// var result=Math.max(1,2,3,55,89,520)
+			// console.log(result);
+
+
+			// var result=Math.max([1,2,3,55,89,520])
+			// 			console.log(result);
+			var arr = [1, 2, 3, 55, 89, 520]
+			var result = Math.max.apply(window, arr);
+			console.log(result);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<button>变变变</button>
+		<button>变变变1</button>
+		<img src="images/1.jpg" />
+		
+		<script type="text/javascript">
+			window.onload=function(){
+				var btn=document.getElementsByTagName("button")[0];
+				var img=document.getElementsByTagName("img")[0];
+				var imgArr=['./images/1.jpg','./images/2.jpg','./images/3.jpg','./images/4.jpg']
+
+                var i=1;
+                btn.onclick=function(){
+					
+					if(i==imgArr.length){
+						i=0;
+					}
+					img.src=imgArr[i];
+					i++;
+				}				
+				
+				
+				
+			}
+			
+			
+		</script>
+	</body>
+</html>

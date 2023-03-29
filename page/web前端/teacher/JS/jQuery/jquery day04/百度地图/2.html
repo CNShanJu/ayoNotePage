@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- 引入百度地图的在线 JS-SDK  -->
+		<script src="http://api.map.baidu.com/api?v=3.0&ak=isS7SwIUMx25en8CNxbsbHbQsmaEZB4f">
+		</script>
+		<style>
+		  html{
+			  height: 100%;
+		  }
+		  body{
+			  height: 100%;
+			  margin:0px;
+			  padding: 0px;  
+		  }
+		  #container{
+			  width:100%;
+			  height: 100%;
+		  }
+		</style>
+	</head>
+	<body>
+		<!-- 放地图 -->
+		<div id="container"></div>
+		
+		<script>
+		// 创建地图的实例
+		   const map=new BMap.Map("container");
+		   
+		   setTimeout(function(){
+			   map.addControl(new BMap.NavigationControl());
+			   map.addControl(new BMap.ScaleControl());
+			   map.addControl(new BMap.GeolocationControl());
+		   },1000)
+		   
+		   map.centerAndZoom("长沙市芙蓉区辉煌国际",19);
+		</script>
+	</body>
+</html>

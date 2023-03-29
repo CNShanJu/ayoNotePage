@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+		  function fun(a,b,c,e,f){
+			  console.log(arguments);
+			  console.log(arguments[0]);
+			  console.log(arguments.length); //实际参数的个数
+			  console.log(arguments.callee);  //本身这个函数
+			  console.log(arguments.callee.length); //形参的个数
+		  }
+		  
+		  fun(88,66,44)
+		
+		
+		</script>
+		
+	</body>
+</html>

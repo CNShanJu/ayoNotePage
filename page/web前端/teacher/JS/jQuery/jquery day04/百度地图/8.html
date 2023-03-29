@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- 引入百度地图的在线 JS-SDK  -->
+		<script src="http://api.map.baidu.com/api?v=3.0&ak=isS7SwIUMx25en8CNxbsbHbQsmaEZB4f">
+		</script>
+		<style>
+		  html{
+			  height: 100%;
+		  }
+		  body{
+			  height: 100%;
+			  margin:0px;
+			  padding: 0px;  
+		  }
+		  #container{
+			  width:100%;
+			  height: 100%;
+		  }
+		  .map_h5{
+			  background-color: #005CBF;
+			  color: #fff;
+			  padding: 2px 5px;
+		  }
+		  .map_cicle{
+			  width:100px;
+			  height: 100px;
+			  background-color: #24bc79;
+			  /* border:5px solid #fff; */
+			  color: #fff;
+			  display: flex;
+			  justify-content: center;
+			  align-items: center;
+			  border-radius: 50%;
+			  
+		  }
+		</style>
+	</head>
+	<body>
+		<!-- 通过用户的ip来定位所在的城市，不需要绘制地图 -->
+		<script>
+		   var mycity=new BMap.LocalCity();
+		   mycity.get(function(result){
+			   console.log(result)
+			   console.log(result.name);
+		   });
+		</script>
+	</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		    var a=222;
+		    add()
+			function add(){
+				console.log("add")
+			}
+			
+			// 创建GO对象（Global Object）全局对象。
+			GO={
+				
+			}
+			// 找变量声明，将变量名作为GO属性名，值为undefined
+			GO={
+				a:undefined
+			}
+			// 查找函数声明，作为GO属性，值赋予函数体
+			GO={
+				a:undefined,
+				add:function(){}
+			}
+			
+		</script>
+	</body>
+</html>

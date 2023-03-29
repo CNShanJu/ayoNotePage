@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<table id="table">
+			
+			
+			
+		</table>
+		<div>
+			name:<input type="text" id="names"/>
+            age:<input type="text" id="ages" />			
+			<button id="btn">btn</button>
+		</div>
+		
+		<script>
+		  window.onload=function(){
+			  var names=document.getElementById("names");
+			  var age=document.getElementById("ages");
+			  var btn=document.getElementById("btn");
+			  var table=document.getElementById("table");
+			  
+			  btn.onclick=function(){
+				   var namesvalue=names.value;
+				   var agevalue=age.value;
+				   
+				   var tr=table.insertRow(0);
+				    tr.insertCell(0).innerHTML=namesvalue;
+					tr.insertCell(1).innerHTML=agevalue;
+				  
+			  }
+			  
+			  
+			  
+		  }
+		
+		
+		
+		</script>
+		
+		
+	</body>
+</html>

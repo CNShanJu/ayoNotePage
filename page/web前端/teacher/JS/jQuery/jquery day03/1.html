@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="./jquery.js"></script>
+	</head>
+	<body>
+		<div id="box"></div>
+		<div class="box1"></div>
+		
+		<ul id="ulbox">
+			<li>1</li>
+			<li class="libox">2</li>
+			<li class="libox">3</li>
+			<li class="libox">4</li>
+			<li>5</li>
+			<li>6</li>
+		</ul>
+		
+		
+		<ul id="ulbox2">
+			<li>1</li>
+			<li class="libox">2</li>
+			<li class="libox">3</li>
+			<li class="libox">4</li>
+			<li>5</li>
+			<li>6</li>
+		</ul>
+		
+		<ul id="ulbox3">
+			<li>
+				<a>
+					<span>box</span>
+				</a>
+			</li>
+			<li class="libox">2</li>
+			<li class="libox">3</li>
+			<li class="libox">4</li>
+			<li>5</li>
+			<li>6</li>
+		</ul>
+		
+		
+		<script>
+		  // console.log($("#box,.box1")) 
+		  
+		 // console.log($("#ulbox .libox"))  
+		 // console.log($("#ulbox+#ulbox2"));
+		 console.log($("#ulbox3>li"));
+		
+		</script>
+		
+	</body>
+</html>

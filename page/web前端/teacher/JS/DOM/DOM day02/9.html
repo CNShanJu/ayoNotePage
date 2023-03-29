@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div>
+			<div id="box"></div>
+		</div>
+		<ul id="ulbox">
+			<li></li>
+		</ul><div></div>
+		
+		<div id="bigbox" names="sk" title="mybox" style="font-size: 15px;" class="box"></div>
+		
+		
+		<script>
+		  var box=document.getElementById("box");
+		  console.log(box.parentNode);
+		  
+		  var ulbox=document.getElementById("ulbox");
+		   console.log(ulbox.previousSibling);
+			console.log(ulbox.nextSibling);
+			
+			var bigbox=document.getElementById("bigbox");
+			console.log(bigbox.attributes);
+			
+			for(var i=0;i<bigbox.attributes.length;i++){
+				console.log(bigbox.attributes[i])
+				
+			}
+		
+		
+		
+		</script>
+		
+	</body>
+</html>

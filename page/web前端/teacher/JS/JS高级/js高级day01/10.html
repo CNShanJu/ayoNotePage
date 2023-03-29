@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var a=200;  //所有的全局变量都是window的属性
+			function fun(){
+				var a=100;
+				console.log(this);
+				console.log(this.a); //100 200
+				
+			}
+			// window.fun();
+			fun();
+			
+			
+		</script>
+	</body>
+</html>

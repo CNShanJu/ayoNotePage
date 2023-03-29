@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			//  function fun(num){
+			//             console.log(num);
+			//             var num = 5;
+			//             console.log(num);
+			//         }
+			// fun(10);
+			
+			  function fun(ger){
+			            console.log(ger);
+			            function ger(){
+			                alert("hello world");
+			            }
+			        }
+			        fun(5)
+			
+			
+			
+			
+		</script>
+		全局预编译的3个步骤：
+		创建GO对象（Global Object）全局对象。
+		找变量声明，将变量名作为GO属性名，值为undefined
+		查找函数声明，作为GO属性，值赋予函数体
+		
+		局部预编译的4个步骤：
+		创建AO对象（Activation Object）执行期上下文。
+		AO={}
+		找形参和变量声明，将变量和形参名作为AO属性名，值为undefined
+		AO={ger:undefined}
+		将实参值和形参统一。
+			AO={ger:5}
+		在函数体里面找函数声明，值赋予函数体。
+		AO={ger:function(){}}
+		
+		
+	</body>
+</html>

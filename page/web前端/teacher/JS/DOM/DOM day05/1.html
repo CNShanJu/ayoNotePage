@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div onclick="alert('jjjj')">btn</div>
+		<button id="btn">btn</button>
+		<input type="text" id='text' value="sk" />
+		
+		<script>
+		 var btn=document.getElementById("btn");
+		 btn.onclick=function(){
+			 alert("kjkjk")
+		 }
+		 
+		 var text=document.getElementById("text");
+		 text.onblur=function(){
+			 this.style.background="red";
+		 }
+		 text.onfocus=function(){
+			 this.style.background="green";
+		 }
+		 
+		 text.onchange=function(){
+			 console.log("发生了变化");
+		 }
+		
+		</script>
+	</body>
+</html>

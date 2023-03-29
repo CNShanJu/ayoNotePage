@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var obj1={a:1,b:2}
+			
+			function create(obj1){
+				function f(){
+				}
+				f.prototype=obj1;
+				return new f()
+			}
+			var obj2=create(obj1);
+			console.log(obj2.a,obj2.b);
+			
+		</script>
+	</body>
+</html>

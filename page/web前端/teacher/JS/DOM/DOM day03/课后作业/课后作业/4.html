@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div>
+			title:<input type="text" id="title"  />
+			内容:<textarea id="content" cols="30" rows="5"></textarea>
+			<button>提交</button>
+		</div>
+		<ul id="show">
+		
+		</ul>
+		
+		
+		<script>
+		  var title=document.getElementById("title");
+		  var content=document.getElementById("content");
+		  var btn=document.querySelector("button");
+		  var ul=document.querySelector("#show");
+		  
+		  btn.onclick=function(){
+			  if(title.value.length>0){
+				  var li=document.createElement("li");
+				   li.innerHTML="<h2>"+title.value+"</h2><p>"+content.value+"</p>";
+				   // li.innerHTML=`
+				   //    <h2>${title.value}</h2>
+					  // <p>${content.value}</p>
+				   
+				   // `
+				  // var h2=document.createElement("h2");
+				  // h2.innerHTML=title.value;
+				  // var p=document.createElement("p");
+				  // p.innerHTML=content.value;
+				  // li.appendChild(h2);
+				  // li.appendChild(p);
+				  ul.appendChild(li);
+			  }else{
+				  
+				  alert("title不能为空");
+			  }
+			  
+			  
+			  
+		  }
+		  
+		
+		
+		</script>
+		
+	</body>
+</html>

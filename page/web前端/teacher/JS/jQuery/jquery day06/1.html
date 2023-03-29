@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="./jquery.js"></script>
+	</head>
+	<body>
+		<ul id="ul">
+			<li>1</li>
+			<li>2</li>
+		</ul>
+		
+		<script>
+		   $(function(){
+			  var lis=$("#ul li");
+			  console.log(lis);
+			  // lis.each(function(i){
+				 //  console.log(i);
+				 //  // console.log(lis[i]);
+				 //  console.log(this);
+			  // })
+			  jQuery.each(lis,function(i,value){
+				  console.log(i,value);
+			  })
+			 
+			  
+			  //  Array.from(lis).forEach(function(i){
+				 //  console.log(i);
+				  
+			  // })
+			   
+			   
+		   })
+		
+		
+		</script>
+		
+	</body>
+</html>

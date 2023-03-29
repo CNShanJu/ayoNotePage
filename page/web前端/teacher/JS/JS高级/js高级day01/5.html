@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		 //   var a=100;
+			// a.names="sk";
+			// console.log(a.names);
+			// JSON.stringify()
+			
+			var str='{hobby:"sk"}';  
+			// console.log(typeof str);
+			var obj=JSON.parse(str);  //str必须是一种json字符串的格式
+			console.log(obj);  //{hobby: "sk"}
+			var str1=JSON.stringify(obj);
+			console.log(str1);  //'{"hobby":"sk"}'
+			console.log(typeof str1);  //string
+		</script>
+	</body>
+</html>

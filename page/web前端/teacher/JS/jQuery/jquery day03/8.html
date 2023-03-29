@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="./jquery.js"></script>
+	</head>
+	<body>
+		
+		<ul id="box">
+			<li>前端开发</li>
+			<li>java开发</li>
+		</ul>
+		<button id="btn">btn</button>
+		
+		<script >
+		  $("#btn").click(function(){
+			  var newli=$("#box li:first").clone();
+			  $("#box").append(newli);
+		  })
+		
+		</script>
+		
+	</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style>
+		td {
+			border: 1px solid;
+			width: 200px;
+			text-align: center;
+		}
+
+		tfoot tr {
+			width: 600px;
+			text-align: center;
+		}
+	</style>
+	<body>
+		<table id="table">
+
+
+		</table>
+		<script>
+		  window.onload=function(){
+			  var table = document.getElementById("table");
+			  var thead = table.createTHead();
+			  var tr = thead.insertRow(0);
+			  var td = tr.insertCell(0).innerHTML = "商品名称";
+			  var td = tr.insertCell(1).innerHTML = "商品价格";
+			  var td = tr.insertCell(2).innerHTML = "备注";
+			  
+			  table.style.borderCollapse = "collapse";
+			  thead.style.backgroundColor = 'rgb(153,255,102)'
+			  
+			  var tbody = table.createTBody();
+			  var tr1 = tbody.insertRow(0);
+			  tr1.insertCell(0).innerHTML = "iphone5";
+			  var td = tr1.insertCell(1).innerHTML = 200;
+			  var td1 = tr1.insertCell(2).innerHTML = "<button type='button' value='删除' onclick='deleteTable()'>btn</button>";
+			  
+			  // var tr2 = tbody.insertRow(1);
+			  // tr2.insertCell(0).innerHTML = "电饭煲";
+			  // var td2 = tr2.insertCell(1).innerHTML = 500;
+			  // var td3 = tr2.insertCell(2).innerHTML = "<input type='button' value='删除' onclick='deleteTable(this)'>";
+			  
+			  // var tfoot = table.createTFoot();
+			  // var tr3 = tfoot.insertRow(0).innerHTML = "<input type='button' value='增加' onclick='addRow()'>";;
+			  // document.body.appendChild(table);
+			  
+		  }
+		
+		
+			function addRow() {
+				//添加一行 insertRow() 方法用于在表格中的指定位置插入一个新行
+				var newTr = tbody.insertRow();
+				//添加四列 sertCell() 方法用于在 HTML 表的一行的指定位置插入一个空的 <td> 元素
+				var newTd0 = newTr.insertCell();
+				var newTd1 = newTr.insertCell();
+				var newTd2 = newTr.insertCell();
+				//分别给每一列赋值
+
+				newTd0.innerText = "衣服";
+				newTd1.innerText = 100;
+				newTd2.innerHTML = "<input type='button' value='删除' onclick='deleteTable(this)'>";
+			}
+
+			function deleteTable() {
+				console.log("addd")
+				//获取当前表格行号
+				// var i = a.parentNode.parentNode.remove();
+				//调用deleteRow()删除本行
+			}
+
+			
+		</script>
+	</body>
+</html>

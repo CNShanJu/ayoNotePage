@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    button {
+      width: 200px;
+      height: 50px;
+      background-color: #999;
+    }
+	.active{
+		background: red;
+	}
+  </style>
+</head>
+
+<body>
+  <button>资讯动态</button>
+  <button>产品世界</button>
+  <button>市场营销</button>
+
+  <script>
+    var btn = document.querySelectorAll("button");
+	 console.log(btn);
+ //    btn.onclick = function () {
+ //      btn.style.background = "red";
+ //    }
+     for(var i=0;i<btn.length;i++){
+		 btn[i].onclick=function(){
+			 console.log(this) 
+			 // this.style.backgroundColor="red";
+			
+			 for(var j=0;j<btn.length;j++){
+				 btn[j].className="";
+			 }
+			  this.setAttribute('class','active');
+		 }
+		 
+	 }
+ 
+ 
+  </script>
+</body>
+
+</html>

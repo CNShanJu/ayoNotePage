@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<script>
+		// es5的语法
+		//   function Person(){
+			  
+		// 	  this.sayhello=function(){
+				  
+		// 	  }
+			  
+		//   }
+		  
+		//   var xiaoming=new Person()
+		//   xiaoming.sayhello();
+		  
+		// Person.hi();
+		
+		// es6
+		class Person{
+			constructor(name,age) {
+				this.name=name;
+				this.age=age;
+			    
+			}
+			
+			static sayhello(){
+				console.log("xxxx");
+			}
+			
+			
+		}
+		
+		 var xiaoming=new Person("xiaoming",12)
+		 console.log(xiaoming.name);
+		 // 实例的方法
+		// xiaoming.sayhello();
+		Person.sayhello()
+		
+		
+		</script>
+		
+	</body>
+</html>

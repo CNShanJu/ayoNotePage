@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<!-- 引入百度地图的在线 JS-SDK  -->
+		<script src="http://api.map.baidu.com/api?v=3.0&ak=isS7SwIUMx25en8CNxbsbHbQsmaEZB4f">
+		</script>
+		<style>
+		  html{
+			  height: 100%;
+		  }
+		  body{
+			  height: 100%;
+			  margin:0px;
+			  padding: 0px;  
+		  }
+		  #container{
+			  width:100%;
+			  height: 100%;
+		  }
+		</style>
+	</head>
+	<body>
+		<!-- 放地图 -->
+		<div id="container"></div>
+		
+		<script>
+		// 创建地图的实例
+		   const map=new BMap.Map("container");
+		   
+		    // map.addControl(new BMap.OverviewMapControl());
+		    // map.addControl(new BMap.MapTypeControl());
+		  // 创建点坐标
+		  const point=new BMap.Point(112.897142,28.208945);
+		   // 创建一个标注
+		   const marker=new BMap.Marker(point);
+		   // 将标注添加到地图中
+		   map.addOverlay(marker);
+		   // 缩放级别1--19
+		   map.centerAndZoom(point,19)
+		</script>
+		
+		
+		
+	</body>
+</html>

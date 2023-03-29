@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var obj = {
+			    a: 1,
+			    c: 2,
+			    say: function (a) {
+			        var sayA = function (a) {
+						console.log(this);
+			            this.a = a;
+			        };
+			        sayA(a);
+			    }
+			}
+			obj.say(3);
+			console.log(obj.a + "  " + obj.c); //1  2
+			console.log(a); //3
+			console.log(c);  //c is not defined
+			
+		</script>
+	</body>
+</html>

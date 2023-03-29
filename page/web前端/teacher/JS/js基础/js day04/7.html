@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function getHealthIndex(weight,height){
+				var index=weight/(height*height);
+				if(index>25){
+					return "pang"
+				}else if(index>20){
+					return "shizhong";	
+				}else{
+					return "s";
+				}
+			}
+			var r=getHealthIndex(85,1.76)
+			console.log(r);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<button id="btn1" >设置</button>
+		<button id="btn2" >删除cookie</button>
+		<button id="btn3" >获取</button>
+		
+		<script>
+		  window.onload=function(){
+			  var btn1=document.getElementById("btn1");
+			  var btn2=document.getElementById("btn2");
+			  var btn3=document.getElementById("btn3");
+			  btn1.onclick=function(){
+				  setCookie('hobby','cy',7)
+				  
+			  }
+			  
+			  btn2.onclick=function(){
+			  	removecookie('username')	 			  
+			  }
+			  
+			  btn3.onclick=function(){
+			  		var r=getCookie("age");
+					console.log(r);			  
+			  }
+		  }
+		  
+		  function getCookie(cname){
+			  var c=document.cookie;
+			  var ca=c.split("; ");
+			  // console.log(ca);
+			  for(var i=0;i<ca.length;i++){
+				  var c=ca[i];
+				  var index=c.indexOf("=");
+				  if(index!=-1){
+					  if(cname==c.substring(0,index)){
+						  return c.substring(index+1);
+					  }
+				  }
+			  }
+		  }
+		
+		
+		 // 设置cookie
+		 function setCookie(cname,cvalue,exdays){
+			 // document.cookie="username=sk;expires=Fri 28 December 2021 20:00:00 UTC;path=/";
+			 var d=new Date();
+			  d.setTime(d.getTime()+(exdays*24*60*60*1000));  
+			  // Fri Dec 31 2021 09:47:30 GMT+0800 (中国标准时间)
+			 var expires="expires="+d;
+			 document.cookie=cname+"="+cvalue+";"+expires+";path=/"
+		 }
+		 
+		 function removecookie(cname){
+			 setCookie(cname,1,-1)
+		 }
+		 
+		 
+		 
+		
+		
+		</script>
+	</body>
+</html>

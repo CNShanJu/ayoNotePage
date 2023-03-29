@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.onload=function(){
+				console.log("1")
+			}
+		   if(typeof window.onload=="function"){
+			   var saved=null;  //创建一个保存器
+			   saved=window.onload;
+			   
+		   }
+		   
+		   window.onload=function(){
+			   if(saved) saved();
+			   console.log("2");
+			   
+		   }
+		
+		
+			
+		</script>
+	</body>
+</html>

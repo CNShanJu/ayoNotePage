@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			// function fun(){
+			// 	var a=888;
+			// 	console.log(this.a);
+				
+			// }
+			
+			var obj={
+				"a":10,
+				"b":20,
+				"c":function(){
+						var a=888;
+						console.log(this.a);
+				}
+			}
+			
+			obj.c();
+			
+		</script>
+	</body>
+</html>

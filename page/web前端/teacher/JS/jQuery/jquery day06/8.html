@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="jquery.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var obj1={
+				name:"jimmy",
+				age:18,
+				hobby:"read"
+			}
+			
+			var obj2={
+				name:"tommy",
+				gender:"male"
+			}
+			
+			
+			// var newobj=$.extend(obj1,obj2);
+			// console.log(newobj);
+			// console.log(obj1);
+			// console.log(obj2);
+			// {
+			// age: 18
+			// gender: "male"
+			// hobby: "read"
+			// name: "tommy"	
+				
+			// }
+			
+			var newobj2=$.extend({},obj1,obj2);
+			console.log(newobj2)
+			console.log(obj1);
+			console.log(obj2);
+			
+			
+			
+			
+		</script>
+	</body>
+</html>

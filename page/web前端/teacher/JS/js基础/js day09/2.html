@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			
+			// object
+			// 字面量的形式 对象就是一个关联数组  var arr=[1,5,6]
+			// var obj={ 
+			// 	// key:value
+			// 	sex:"男",
+			// 	name:"sk",
+			// 	sex:"男"
+			// }
+			
+			// console.log(obj);
+			// // console.log(obj.sex);
+			// // console.log(obj['sex']);
+			// // 判断有没有sex这个属性
+			// if(obj['sex']){
+			// 	console.log("有sex这个属性");
+			// }else{
+			// 	console.log("没有sex这个属性")
+			// }
+			
+			// var obj={
+				
+				
+			// }
+			
+			// obj.name=12;
+			// obj.age=232253
+			// console.log(obj);
+			
+			var str="abcdefaaazzzaaapadc";
+			// 遍历str 利用charAt() 把每个字符存储到对象里面
+			// 如果对象中没有该属性，则为1，如果有该属性，则+1
+			
+			var obj={
+				
+			}
+			
+			for(var i=0;i<str.length;i++){
+				var c=str.charAt(i);
+				
+				if(obj[c]){
+                     obj[c]++;					
+				}else{
+					obj[c]=1;
+				}
+				
+				
+			}
+			console.log(obj);
+			// 求这个对象的最大值
+			var max=0;
+			var rs=""
+			
+			
+			for(var j in obj){
+				console.log(j);
+				console.log(obj[j]) 
+				if(obj[j]>max){
+					max=obj[j];
+					rs=j;
+				}
+				
+			}
+			
+			console.log("max"+max)
+			console.log('res'+rs);
+			
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			// function add(){
+			// 	console.log("hello world")
+				
+			// }
+			
+			// // add();
+			// new add();
+			
+			
+			// 构造函数
+			function fun(){
+				// 1.函数的内部悄悄的创建一个局部的变量，是一个空的对象
+				// var obj={}
+				// 2.函数将自己的上下文指向这个空的对象，所有的语句中this就是指向这个空的对象
+				// console.log(this); //obj
+				// 3.函数将指向所有的语句
+				this.name='sk';
+				this.age=12;
+				this.sex="男";
+				// obj={name:"sk",age:12,sex:"男"}
+				
+				// 4.所有的语句执行完毕之后，函数将自动return这个对象，函数将把自己的上下文返回。 return obj
+				
+			}
+			
+			var sk=new fun();
+			console.log(sk.name,sk.age);
+			
+		</script>
+	</body>
+</html>

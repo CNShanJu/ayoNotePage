@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="./jquery.js"></script>
+		<script src="./ajax.js"></script>
+	</head>
+	<body>
+		<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.tukuppt.com%2Fpng_preview%2F00%2F35%2F65%2FK3L3SnCFDl.jpg%21%2Ffw%2F780&refer=http%3A%2F%2Fimg.tukuppt.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1644562873&t=d25bcfaaa01de713f301f948c9339be5" />
+		
+		<script>
+			$(function() {
+				getProduct();
+				
+
+			})
+
+			function getProduct() {
+				ajax("http://m.kugou.com/?json=true", "get", "", function(data) {
+					console.log(data);
+				})
+			}
+
+			// function getBanner() {
+			// 	ajax("http://47.56.173.44/shopdemo/public/index.php/addons/xshop/nav", "post", {
+			// 		"nav_type": [0, 1, 2]
+			// 	}, function(data) {
+			// 		console.log(data);
+			// 	})
+			// }
+		</script>
+
+	</body>
+</html>

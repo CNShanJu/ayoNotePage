@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<ul id="ulbox">
+			<li>1</li>
+			<li id="lastli">3</li>
+			
+		</ul>
+		
+		<script type="text/javascript">
+			window.onload=function(){
+				var ulbox=document.getElementById("ulbox");
+				
+				var lastli=document.getElementById("lastli");
+				
+				
+				var newli=document.createElement("li");
+				newli.innerHTML=2;
+				
+				ulbox.insertBefore(newli,lastli);
+				
+				
+				
+				
+				
+			}
+			
+		</script>
+		
+		
+	</body>
+</html>

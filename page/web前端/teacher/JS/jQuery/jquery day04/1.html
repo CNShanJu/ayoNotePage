@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="./jquery.js"></script>
+	</head>
+	<body>
+		
+		<div id="bigbox">
+			<p style="width:100px">
+				<span id="spanbox">span</span>
+				
+			</p>
+			
+			<p class="pbox" style="width:100px">
+				<span id="spanbox">span</span>
+				
+			</p>
+			
+			<p style="width:100px">
+				<span id="spanbox">span</span>
+				
+			</p>
+			
+			
+		</div>
+		
+		
+		<div id="bigbox1">
+			<p style="width:100px">
+				<span id="spanbox">span</span>
+				
+			</p>
+			
+			<p class="pbox" style="width:100px">
+				<span id="spanbox">span</span>
+				
+			</p>
+			
+			<p style="width:100px">
+				<span id="spanbox">span</span>
+				
+			</p>
+			
+			
+		</div>
+		
+		
+		<div id="bigbox2">
+			<p style="width:100px">
+				<span id="spanbox">span</span>
+				
+			</p>
+			
+			
+			
+			
+		</div>
+		
+		<ul id="ulbox">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+			<li class="libox">6</li>
+			
+		</ul>
+		
+		
+		<script type="text/javascript">
+		
+		console.log($("#bigbox2").find("#spanbox"));
+		
+		   console.log($("#ulbox li").eq(1).siblings(".libox"));
+		
+		
+			console.log($("#spanbox").parent()) 
+			console.log($("#spanbox").parents()) 
+			
+			console.log($("#bigbox").children(".pbox"));
+			
+			console.log($("#bigbox").next());
+			
+			
+		</script>
+		
+	</body>
+</html>

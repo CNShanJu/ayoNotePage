@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var str="abcdefaaazzzaaapadc";
+			// indexof('查找的字符'，0)
+			// var index=str.indexOf("a");
+			// var count=0;
+			// while(index!=-1){
+			// 	count++;
+			// 	index=str.indexOf("a",index+1);
+			// }
+			// console.log(count);
+			
+			// var arr=str.split("");
+			// var count=0;
+			// console.log(arr);
+			// for(var i=0;i<arr.length;i++){
+			// 	// if(arr[i].indexOf("a")!==-1){
+			// 	// 	console.log(i);
+			// 	// 	count++
+			// 	// }
+			// 	if(arr[i].includes('a')){
+			// 		count++
+			// 	}
+			// }
+			// console.log(count)
+			
+			// replace():替换指定的字符  replaceAll() 替换掉所有的字符
+			var len=str.length; //abcdefaaazzzaaapadc
+			str=str.replaceAll("a","");
+			console.log(str);  //bcdefzzzpdc
+			
+			var len2=len-str.length;
+			console.log(len2);
+			
+		</script>
+	</body>
+</html>

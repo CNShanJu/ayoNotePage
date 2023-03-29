@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="box" onclick="alert('212121')">
+			<img src="images/50.gif" alt="" id="img" />
+			<button>添加图片</button>
+			<button>赋值div</button>
+			<button>替换图片</button>
+			<button>删除图片</button>
+		</div>
+		
+		<script>
+		  var box=document.getElementById("box");
+		  var img=document.getElementById("img");
+		  var btns=document.querySelectorAll("button")
+		  
+		  btns[3].onclick=function(){
+			  box.removeChild(img);
+			  
+		  }
+		  btns[2].onclick=function(){
+			  var h1=document.createElement("h1");
+			  h1.innerHTML="xxxxx";
+			  box.replaceChild(h1,img);
+		  }
+		  btns[0].onclick=function(){
+			  var newImg=document.createElement('img');
+			  newImg.setAttribute("src",'images/2.jpg');
+			  box.insertBefore(newImg,this);
+		  }
+		  btns[1].onclick=function(){
+			  var newDiv=box.cloneNode(true);
+			  box.parentNode.appendChild(newDiv);
+		  }
+		  
+		  
+		
+		</script>
+	</body>
+</html>

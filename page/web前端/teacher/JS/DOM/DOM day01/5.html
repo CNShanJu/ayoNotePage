@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ul>
+		
+		<ul id="color">
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>4</li>
+			<li>4</li>
+			<li>4</li>
+			<li>4</li>
+		</ul>
+		
+		<script type="text/javascript">
+			// 获取第二个ul 下面的所有的li的元素
+			window.onload=function(){
+				// var ulli=document.getElementsByTagName("li");
+				// console.log(ulli);
+				
+				// var ulbox=document.getElementById("color");
+				// // console.log(ulbox);
+				// var lis=ulbox.getElementsByTagName("li")
+				// console.log(lis);
+				
+				var lis=document.getElementById("color").getElementsByTagName("li")
+				console.log(lis);
+				// lis[0].style.background="red";
+				// lis[2].style.background="red";
+				for(var i=0;i<lis.length;i++){
+					if(i%2==0){
+						lis[i].style.background="red";
+					}else{
+						lis[i].style.background="yellow";
+					}
+					
+				}
+				
+				
+			}
+			
+		</script>
+		
+		
+	</body>
+</html>

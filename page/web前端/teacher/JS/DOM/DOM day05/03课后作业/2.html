@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<table  id="tab" border="1" cellspacing="" cellpadding="">
+			<thead>
+				<tr>
+					<td>
+						<input type='checkbox' name='' id='checkAll' />全选
+					</td>
+					<td>商品的名称</td>
+					<td>商品数量</td>
+					<td>商品价格</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<input type="checkbox" name='item' id="" />
+					</td>
+					<td>小微</td>
+					<td>
+						<button onclick="reduce(this)">-</button>
+						<input type="text" value='1' />
+						<button onclick="add(this)">+</button>
+						
+					</td>
+					<td><span>100</span></td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="checkbox" name='item' id="" />
+					</td>
+					<td>小宏</td>
+					<td>
+						<button onclick="reduce(this)">-</button>
+						<input type="text" value='2' />
+						<button  onclick="add(this)">+</button>
+						
+					</td>
+					<td><span>200</span></td>
+				</tr>
+				
+				
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3">
+						总价:
+					</td>
+					<td>
+						<span id="rs">0</span>
+					</td>
+				</tr>
+				
+			</tfoot>
+		</table>
+		
+		<script type="text/javascript">
+			var tab=document.querySelector('table');
+			var tbody=document.querySelector("tbody");
+			var rs=document.querySelector('#rs');
+			var checkAll=document.querySelector("#checkAll");
+			var items=document.getElementsByName('item');
+			
+			
+			for(var i=0;i<items.length;i++){
+				items[i].onclick=function(){
+					// 循环判断选中的状态
+					var flag=true;// 假设子选项全部被选中
+					for(var j=0;j<items.length;j++){
+						if(!items[j].checked){
+							flag=false;
+							break;
+						}
+					}
+					checkAll.checked=flag;
+					getSum();
+				}
+			}
+			
+			checkAll.onclick=function(){
+				for(var i=0;i<items.length;i++){
+					items[i].checked=checkAll.checked
+				}
+				
+				getSum();
+			}
+			
+			function getSum(){
+				
+				var rows=tbody.rows;
+				var sum=0;
+				
+				for(var i=0;i<rows.length;i++){
+					var tr=rows[i];
+					var cells=tr.cells;
+					var td=cells[2];
+					var num=td.children[1].value;
+					var price=tr.cells[3].children[0].innerText;
+					
+					
+					var checkbox=tr.cells[0].children[0]
+					console.log(checkbox);
+					if(checkbox.checked){   //input 已经选中了
+						sum+=num*price;
+					}
+					
+					
+				}
+				
+				rs.innerText=sum;
+				
+				
+			}
+			
+			function reduce(obj){
+				var input=obj.nextElementSibling;
+				var num=parseInt(input.value);
+				
+				if(num==1){
+					obj.disabled=true;
+				    return;
+				}
+				
+				num--;
+				
+				input.value=num;
+				
+				getSum();
+				
+			}
+			
+			function add(obj){
+				console.log(obj);
+				obj.parentNode.firstElementChild.disabled=false;
+				var input=obj.previousElementSibling;
+				console.log(input);
+				var num=parseInt(input.value);
+				num++;
+				input.value=num;
+				getSum();
+			}
+			
+			
+			
+			
+			
+			
+		</script>
+	</body>
+</html>

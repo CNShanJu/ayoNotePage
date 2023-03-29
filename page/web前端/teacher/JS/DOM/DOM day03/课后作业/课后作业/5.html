@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<table  border="1" cellspacing="0">
+			
+			<tr>
+				<td>书名</td>
+				<td>价格</td>
+			</tr>
+			<tr>
+				<td>西游记</td>
+				<td>99</td>
+			</tr>
+			<tr>
+				<td>红楼梦</td>
+				<td>66</td>
+			</tr>
+			<tr id="row3">
+				<td>三国</td>
+				<td>129</td>
+			</tr>
+			<tr>
+				<td>水浒</td>
+				<td>119</td>
+			</tr>
+			<tr id="btn">
+				<td colspan="2">
+					<button onclick="add()">新增一行</button>
+					<button onclick="del()">删除三国</button>
+					<button onclick="show()">得到书名和价格</button>
+				</td>
+				
+			</tr>
+		</table>
+		<div id="show"></div>
+		
+		
+		<script>
+		 var tbody=document.querySelector("tbody");
+		 var row3=document.getElementById("row3");
+		 var btn=document.getElementById("btn");
+		 var showobj=document.getElementById("show");
+		 
+		 
+		 function add(){
+			 var tr=document.createElement("tr");
+			 var td1=document.createElement("td");
+			 td1.innerHTML="xxxxxxx";
+			 var td2=document.createElement("td");
+			 td2.innerHTML=89;
+			 tr.appendChild(td1);
+			 tr.appendChild(td2);
+			 tbody.insertBefore(tr,btn);
+			 
+		 }
+		 
+		 function del(){
+			 tbody.removeChild(row3);
+		 }
+		 
+		 function show(){
+			 var str=""
+			 var tr=document.getElementsByTagName("tr");
+			 // console.log(tr);
+			 for(var i=1;i<tr.length-1;i++){
+				 var name=tr[i].firstElementChild.innerHTML;
+				 var price=tr[i].lastElementChild.innerHTML;
+				 str+=name+"&nbsp;"+price+"<br/>";
+				 
+			 }
+			 
+			 showobj.innerHTML=str;
+			 
+			 
+			 
+			 
+		 }
+		 
+		    
+		
+		
+		</script>
+	</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="./jquery.js">	 
+		</script>
+	</head>
+	<body>
+		
+		<!-- <input type="button" id="btnTest" value="测试" onclick="alert('jjkjk')" /> -->
+		
+		<div id="box" style="width:100px;height:100px;background-color: red;">box</div>
+		
+		<input type="button" value="复制" onclick="copy_click(this)" />
+		
+		
+		<script>
+		
+		   function sayhello(){
+			   console.log("nihao");
+		   }
+		
+		  // $("#btnTest").click(function(){
+			 //  console.log("nihao");
+		  // })
+		
+		  function copy_click(e){
+			  // console.log(e);//dom元素
+			  
+			  // var newBtn=$("#btnTest").clone(true);
+			  
+			  // $(e).before(newBtn);
+			  
+			  // $("#box").css("background","red");
+			  // $("#box").css({"background":"red","color":"yellow"});
+			  
+			  console.log($("#box").css("width")); 
+			  
+			  
+		  }
+		
+		
+		</script>
+		
+	</body>
+</html>

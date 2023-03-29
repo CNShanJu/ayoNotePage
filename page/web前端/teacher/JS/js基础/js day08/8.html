@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var data="ab中文123?";
+			var shuzi=0;
+			var yingwen=0;
+			var hanzi=0;
+			var qita=0;
+			
+			
+			function getStrNumber(data){
+				for(var i=0;i<data.length;i++){
+					 var c=data.charAt(i);
+					 if(c>="0"&&c<="9"){
+						 shuzi++;
+					 }else if((c>="A"&&c<="Z")||(c>="a"&&c<="z")){
+						 yingwen++;
+					 }else if(c>="\u4E00"&&c<="\u9FA5"){
+						 hanzi++
+					 }else{
+						 qita++;
+					 }
+				}
+			}
+			
+			getStrNumber(data)
+			
+			console.log(shuzi);
+			console.log(yingwen);
+			console.log(hanzi);
+			console.log(qita);
+			
+		</script>
+	</body>
+</html>

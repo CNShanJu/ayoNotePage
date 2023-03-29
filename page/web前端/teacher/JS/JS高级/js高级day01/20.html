@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<script>
+			// 重载:函数名相同，只是里面的参数不一样而已
+			// js的语法不支持重载，但是我们可以通过arguments这个对象模拟的实现重载的功能
+			function add(a, b) {
+				if(arguments.length==1){
+					console.log(a);
+				}else if(arguments.length==2){
+					console.log(a+b);
+				}
+
+			}
+
+		
+
+			add(3);
+			add(3,4);
+		</script>
+
+	</body>
+</html>

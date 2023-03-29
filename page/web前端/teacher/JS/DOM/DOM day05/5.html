@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body style="height: 10000px;">
+		<form id="form">
+			name:<input type="text" name="username" />
+			<input type="reset"  />
+			
+		</form>
+		
+		<script>
+		var form=document.getElementById("form");
+		  form.onreset=function(){
+			  console.log("重置了");
+		  }
+		  
+		  window.onresize=function(){
+			  console.log("window窗口发生了变化了");
+		  }
+		  
+		  window.onscroll=function(){
+			  console.log("scrolle");
+		  }
+		
+		
+		</script>
+	</body>
+</html>

@@ -1,2 +1,2 @@
-- [返回上一级 [nginx-1.24.0]](服务部署/Nginx/模板/nginx-1.24.0/)
-- [html](服务部署/Nginx/模板/nginx-1.24.0/html/)
+- [返回上一级 [nginx-1.24.0]](page/服务部署/Nginx/模板/nginx-1.24.0/)
+- [html](page/服务部署/Nginx/模板/nginx-1.24.0/html/)

@@ -1,2 +1,2 @@
-- [返回上一级 [Vue2]](web前端/Vue/Vue2/)
-- [6_路由](web前端/Vue/Vue2/6_路由/)
+- [返回上一级 [Vue2]](page/web前端/Vue/Vue2/)
+- [6_路由](page/web前端/Vue/Vue2/6_路由/)

@@ -1,2 +1,2 @@
-- [返回上一级 [core]](web前端/工具库/Swiper/swiper-8.4.7/swiper/core/)
-- [update](web前端/工具库/Swiper/swiper-8.4.7/swiper/core/update/)
+- [返回上一级 [core]](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/core/)
+- [update](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/core/update/)

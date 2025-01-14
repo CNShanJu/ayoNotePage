@@ -1,2 +1,2 @@
-- [返回上一级 [swiper]](web前端/工具库/Swiper/swiper-8.4.7/swiper/)
-- [components-shared](web前端/工具库/Swiper/swiper-8.4.7/swiper/components-shared/)
+- [返回上一级 [swiper]](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/)
+- [components-shared](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/components-shared/)

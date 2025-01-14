@@ -1,2 +1,2 @@
-- [返回上一级 [工具库]](web前端/工具库/)
-- [vueSeamlessScroll](web前端/工具库/vueSeamlessScroll/)
+- [返回上一级 [工具库]](page/web前端/工具库/)
+- [vueSeamlessScroll](page/web前端/工具库/vueSeamlessScroll/)

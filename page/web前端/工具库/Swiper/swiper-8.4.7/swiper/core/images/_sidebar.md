@@ -1,2 +1,2 @@
-- [返回上一级 [core]](web前端/工具库/Swiper/swiper-8.4.7/swiper/core/)
-- [images](web前端/工具库/Swiper/swiper-8.4.7/swiper/core/images/)
+- [返回上一级 [core]](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/core/)
+- [images](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/core/images/)

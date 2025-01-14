@@ -1,2 +1,2 @@
-- [返回上一级 [modules]](web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/)
-- [effect-cards](web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/effect-cards/)
+- [返回上一级 [modules]](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/)
+- [effect-cards](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/effect-cards/)

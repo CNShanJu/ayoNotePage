@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/MQ/Kafka/img/)
-- [1_Apache ZooKeeper与Kafka的协同工作原理](后端/MQ/Kafka/img/1_Apache%20ZooKeeper与Kafka的协同工作原理/)
+- [返回上一级 [img]](page/后端/MQ/Kafka/img/)
+- [1_Apache ZooKeeper与Kafka的协同工作原理](page/后端/MQ/Kafka/img/1_Apache%20ZooKeeper与Kafka的协同工作原理/)

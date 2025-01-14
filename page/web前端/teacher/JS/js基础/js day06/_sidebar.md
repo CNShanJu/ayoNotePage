@@ -1,2 +1,2 @@
-- [返回上一级 [js基础]](web前端/teacher/JS/js基础/)
-- [js day06](web前端/teacher/JS/js基础/js%20day06/)
+- [返回上一级 [js基础]](page/web前端/teacher/JS/js基础/)
+- [js day06](page/web前端/teacher/JS/js基础/js%20day06/)

@@ -1,2 +1,2 @@
-- [返回上一级 [swiper]](web前端/工具库/Swiper/swiper-8.4.7/swiper/)
-- [solid](web前端/工具库/Swiper/swiper-8.4.7/swiper/solid/)
+- [返回上一级 [swiper]](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/)
+- [solid](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/solid/)

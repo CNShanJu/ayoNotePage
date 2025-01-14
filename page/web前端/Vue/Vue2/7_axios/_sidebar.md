@@ -1,2 +1,2 @@
-- [返回上一级 [Vue2]](web前端/Vue/Vue2/)
-- [7_axios](web前端/Vue/Vue2/7_axios/)
+- [返回上一级 [Vue2]](page/web前端/Vue/Vue2/)
+- [7_axios](page/web前端/Vue/Vue2/7_axios/)

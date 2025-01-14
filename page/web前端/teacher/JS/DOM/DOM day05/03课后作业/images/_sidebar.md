@@ -1,2 +1,2 @@
-- [返回上一级 [03课后作业]](web前端/teacher/JS/DOM/DOM day05/03课后作业/)
-- [images](web前端/teacher/JS/DOM/DOM%20day05/03课后作业/images/)
+- [返回上一级 [03课后作业]](page/web前端/teacher/JS/DOM/DOM day05/03课后作业/)
+- [images](page/web前端/teacher/JS/DOM/DOM%20day05/03课后作业/images/)

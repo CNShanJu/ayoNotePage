@@ -1,2 +1,2 @@
-- [返回上一级 [React]](web前端/React/)
-- [0_阮一峰Demo](web前端/React/0_阮一峰Demo/)
+- [返回上一级 [React]](page/web前端/React/)
+- [0_阮一峰Demo](page/web前端/React/0_阮一峰Demo/)

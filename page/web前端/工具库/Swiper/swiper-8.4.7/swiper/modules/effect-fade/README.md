@@ -1,2 +1,2 @@
-- [返回上一级 [modules]](web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/)
-- [effect-fade](web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/effect-fade/)
+- [返回上一级 [modules]](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/)
+- [effect-fade](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/effect-fade/)

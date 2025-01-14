@@ -1,2 +1,2 @@
-- [返回上一级 [nginx部署资料]](后端/Docker/nginx部署资料/)
-- [logs](后端/Docker/nginx部署资料/logs/)
+- [返回上一级 [nginx部署资料]](page/后端/Docker/nginx部署资料/)
+- [logs](page/后端/Docker/nginx部署资料/logs/)

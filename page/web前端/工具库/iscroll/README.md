@@ -1,4 +1,4 @@
-- [返回上一级 [工具库]](web前端/工具库/)
-- [iscroll](web前端/工具库/iscroll/)
-  - [js](web前端/工具库/iscroll/js/)
-  - [使用](web前端/工具库/iscroll/使用.md)
+- [返回上一级 [工具库]](page/web前端/工具库/)
+- [iscroll](page/web前端/工具库/iscroll/)
+  - [js](page/web前端/工具库/iscroll/js/)
+  - [使用](page/web前端/工具库/iscroll/使用.md)

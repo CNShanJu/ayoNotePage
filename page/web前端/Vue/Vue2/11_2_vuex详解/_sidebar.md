@@ -1,2 +1,2 @@
-- [返回上一级 [Vue2]](web前端/Vue/Vue2/)
-- [11_2_vuex详解](web前端/Vue/Vue2/11_2_vuex详解/)
+- [返回上一级 [Vue2]](page/web前端/Vue/Vue2/)
+- [11_2_vuex详解](page/web前端/Vue/Vue2/11_2_vuex详解/)

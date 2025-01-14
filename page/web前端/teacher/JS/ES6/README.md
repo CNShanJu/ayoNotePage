@@ -1,2 +1,2 @@
-- [返回上一级 [JS]](web前端/teacher/JS/)
-- [ES6](web前端/teacher/JS/ES6/)
+- [返回上一级 [JS]](page/web前端/teacher/JS/)
+- [ES6](page/web前端/teacher/JS/ES6/)

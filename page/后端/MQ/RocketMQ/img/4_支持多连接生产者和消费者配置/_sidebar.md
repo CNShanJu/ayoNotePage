@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/MQ/RocketMQ/img/)
-- [4_支持多连接生产者和消费者配置](后端/MQ/RocketMQ/img/4_支持多连接生产者和消费者配置/)
+- [返回上一级 [img]](page/后端/MQ/RocketMQ/img/)
+- [4_支持多连接生产者和消费者配置](page/后端/MQ/RocketMQ/img/4_支持多连接生产者和消费者配置/)

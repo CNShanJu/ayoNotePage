@@ -1,2 +1,2 @@
-- [返回上一级 [lua]](服务部署/Nginx/模板/nginx-1.24.0/Openresty/openresty-1.21.4.3-win64/lua/)
-- [jit](服务部署/Nginx/模板/nginx-1.24.0/Openresty/openresty-1.21.4.3-win64/lua/jit/)
+- [返回上一级 [lua]](page/服务部署/Nginx/模板/nginx-1.24.0/Openresty/openresty-1.21.4.3-win64/lua/)
+- [jit](page/服务部署/Nginx/模板/nginx-1.24.0/Openresty/openresty-1.21.4.3-win64/lua/jit/)

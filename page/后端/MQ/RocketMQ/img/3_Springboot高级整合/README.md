@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/MQ/RocketMQ/img/)
-- [3_Springboot高级整合](后端/MQ/RocketMQ/img/3_Springboot高级整合/)
+- [返回上一级 [img]](page/后端/MQ/RocketMQ/img/)
+- [3_Springboot高级整合](page/后端/MQ/RocketMQ/img/3_Springboot高级整合/)

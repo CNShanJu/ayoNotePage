@@ -1,2 +1,2 @@
-- [返回上一级 [pod]](服务部署/Nginx/模板/nginx-1.24.0/Openresty/openresty-1.21.4.3-win64/pod/)
-- [lua-5.1.5](服务部署/Nginx/模板/nginx-1.24.0/Openresty/openresty-1.21.4.3-win64/pod/lua-5.1.5/)
+- [返回上一级 [pod]](page/服务部署/Nginx/模板/nginx-1.24.0/Openresty/openresty-1.21.4.3-win64/pod/)
+- [lua-5.1.5](page/服务部署/Nginx/模板/nginx-1.24.0/Openresty/openresty-1.21.4.3-win64/pod/lua-5.1.5/)

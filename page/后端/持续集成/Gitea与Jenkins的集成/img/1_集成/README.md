@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/持续集成/Gitea与Jenkins的集成/img/)
-- [1_集成](后端/持续集成/Gitea与Jenkins的集成/img/1_集成/)
+- [返回上一级 [img]](page/后端/持续集成/Gitea与Jenkins的集成/img/)
+- [1_集成](page/后端/持续集成/Gitea与Jenkins的集成/img/1_集成/)

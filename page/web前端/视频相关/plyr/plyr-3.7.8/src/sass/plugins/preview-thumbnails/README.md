@@ -1,2 +1,2 @@
-- [返回上一级 [plugins]](web前端/视频相关/plyr/plyr-3.7.8/src/sass/plugins/)
-- [preview-thumbnails](web前端/视频相关/plyr/plyr-3.7.8/src/sass/plugins/preview-thumbnails/)
+- [返回上一级 [plugins]](page/web前端/视频相关/plyr/plyr-3.7.8/src/sass/plugins/)
+- [preview-thumbnails](page/web前端/视频相关/plyr/plyr-3.7.8/src/sass/plugins/preview-thumbnails/)

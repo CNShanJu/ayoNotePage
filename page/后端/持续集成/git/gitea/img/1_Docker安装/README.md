@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/持续集成/git/gitea/img/)
-- [1_Docker安装](后端/持续集成/git/gitea/img/1_Docker安装/)
+- [返回上一级 [img]](page/后端/持续集成/git/gitea/img/)
+- [1_Docker安装](page/后端/持续集成/git/gitea/img/1_Docker安装/)

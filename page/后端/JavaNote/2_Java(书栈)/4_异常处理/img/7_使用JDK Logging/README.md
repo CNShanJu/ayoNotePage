@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/JavaNote/2_Java(书栈)/4_异常处理/img/)
-- [7_使用JDK Logging](后端/JavaNote/2_Java(书栈)/4_异常处理/img/7_使用JDK%20Logging/)
+- [返回上一级 [img]](page/后端/JavaNote/2_Java(书栈)/4_异常处理/img/)
+- [7_使用JDK Logging](page/后端/JavaNote/2_Java(书栈)/4_异常处理/img/7_使用JDK%20Logging/)

@@ -1,2 +1,2 @@
-- [返回上一级 [core]](web前端/工具库/Swiper/swiper-8.4.7/swiper/core/)
-- [events](web前端/工具库/Swiper/swiper-8.4.7/swiper/core/events/)
+- [返回上一级 [core]](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/core/)
+- [events](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/core/events/)

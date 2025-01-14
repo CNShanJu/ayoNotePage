@@ -1,2 +1,2 @@
-- [返回上一级 [vsCode]](编译器/vsCode/)
-- [配置文件](编译器/vsCode/配置文件/)
+- [返回上一级 [vsCode]](page/编译器/vsCode/)
+- [配置文件](page/编译器/vsCode/配置文件/)

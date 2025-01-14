@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/JavaNote/2_Java(书栈)/7_泛型/img/)
-- [6_super通配符](后端/JavaNote/2_Java(书栈)/7_泛型/img/6_super通配符/)
+- [返回上一级 [img]](page/后端/JavaNote/2_Java(书栈)/7_泛型/img/)
+- [6_super通配符](page/后端/JavaNote/2_Java(书栈)/7_泛型/img/6_super通配符/)

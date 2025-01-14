@@ -1,4 +1,4 @@
-- [返回上一级 [JS]](web前端/JS/)
-- [BOM](web前端/JS/BOM/)
-  - [1_常见的Bom对象](web前端/JS/BOM/1_常见的Bom对象.md)
-  - [2_计时器_cookie](web前端/JS/BOM/2_计时器_cookie.md)
+- [返回上一级 [JS]](page/web前端/JS/)
+- [BOM](page/web前端/JS/BOM/)
+  - [1_常见的Bom对象](page/web前端/JS/BOM/1_常见的Bom对象.md)
+  - [2_计时器_cookie](page/web前端/JS/BOM/2_计时器_cookie.md)

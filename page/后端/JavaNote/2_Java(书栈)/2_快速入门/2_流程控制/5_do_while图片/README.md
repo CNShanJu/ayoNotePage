@@ -1,2 +1,2 @@
-- [返回上一级 [2_流程控制]](后端/JavaNote/2_Java(书栈)/2_快速入门/2_流程控制/)
-- [5_do_while图片](后端/JavaNote/2_Java(书栈)/2_快速入门/2_流程控制/5_do_while图片/)
+- [返回上一级 [2_流程控制]](page/后端/JavaNote/2_Java(书栈)/2_快速入门/2_流程控制/)
+- [5_do_while图片](page/后端/JavaNote/2_Java(书栈)/2_快速入门/2_流程控制/5_do_while图片/)

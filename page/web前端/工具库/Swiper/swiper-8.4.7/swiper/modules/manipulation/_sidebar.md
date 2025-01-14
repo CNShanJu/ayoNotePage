@@ -1,3 +1,3 @@
-- [返回上一级 [modules]](web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/)
-- [manipulation](web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/manipulation/)
-  - [methods](web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/manipulation/methods/)
+- [返回上一级 [modules]](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/)
+- [manipulation](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/manipulation/)
+  - [methods](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/manipulation/methods/)

@@ -1,2 +1,2 @@
-- [返回上一级 [DOM]](web前端/teacher/JS/DOM/)
-- [DOM day04](web前端/teacher/JS/DOM/DOM%20day04/)
+- [返回上一级 [DOM]](page/web前端/teacher/JS/DOM/)
+- [DOM day04](page/web前端/teacher/JS/DOM/DOM%20day04/)

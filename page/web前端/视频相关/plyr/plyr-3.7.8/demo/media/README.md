@@ -1,2 +1,2 @@
-- [返回上一级 [demo]](web前端/视频相关/plyr/plyr-3.7.8/demo/)
-- [media](web前端/视频相关/plyr/plyr-3.7.8/demo/media/)
+- [返回上一级 [demo]](page/web前端/视频相关/plyr/plyr-3.7.8/demo/)
+- [media](page/web前端/视频相关/plyr/plyr-3.7.8/demo/media/)

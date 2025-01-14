@@ -1,2 +1,2 @@
-- [返回上一级 [resty]](服务部署/Nginx/模板/nginx-1.24.0/Openresty/openresty-1.21.4.3-win64/lualib/resty/)
-- [core](服务部署/Nginx/模板/nginx-1.24.0/Openresty/openresty-1.21.4.3-win64/lualib/resty/core/)
+- [返回上一级 [resty]](page/服务部署/Nginx/模板/nginx-1.24.0/Openresty/openresty-1.21.4.3-win64/lualib/resty/)
+- [core](page/服务部署/Nginx/模板/nginx-1.24.0/Openresty/openresty-1.21.4.3-win64/lualib/resty/core/)

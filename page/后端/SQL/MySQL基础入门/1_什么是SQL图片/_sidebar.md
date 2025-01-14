@@ -1,2 +1,2 @@
-- [返回上一级 [MySQL基础入门]](后端/SQL/MySQL基础入门/)
-- [1_什么是SQL图片](后端/SQL/MySQL基础入门/1_什么是SQL图片/)
+- [返回上一级 [MySQL基础入门]](page/后端/SQL/MySQL基础入门/)
+- [1_什么是SQL图片](page/后端/SQL/MySQL基础入门/1_什么是SQL图片/)

@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/持续集成/Gitea与Jenkins的集成/img/)
-- [2_前端项目更新打包部署](后端/持续集成/Gitea与Jenkins的集成/img/2_前端项目更新打包部署/)
+- [返回上一级 [img]](page/后端/持续集成/Gitea与Jenkins的集成/img/)
+- [2_前端项目更新打包部署](page/后端/持续集成/Gitea与Jenkins的集成/img/2_前端项目更新打包部署/)

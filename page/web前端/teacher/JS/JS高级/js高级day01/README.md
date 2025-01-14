@@ -1,2 +1,2 @@
-- [返回上一级 [JS高级]](web前端/teacher/JS/JS高级/)
-- [js高级day01](web前端/teacher/JS/JS高级/js高级day01/)
+- [返回上一级 [JS高级]](page/web前端/teacher/JS/JS高级/)
+- [js高级day01](page/web前端/teacher/JS/JS高级/js高级day01/)

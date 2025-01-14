@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/JavaNote/2_Java(书栈)/4_异常处理/img/)
-- [6_使用断言](后端/JavaNote/2_Java(书栈)/4_异常处理/img/6_使用断言/)
+- [返回上一级 [img]](page/后端/JavaNote/2_Java(书栈)/4_异常处理/img/)
+- [6_使用断言](page/后端/JavaNote/2_Java(书栈)/4_异常处理/img/6_使用断言/)

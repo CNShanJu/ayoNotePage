@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/JavaNote/3_Liunx/img/)
-- [1_安装](后端/JavaNote/3_Liunx/img/1_安装/)
+- [返回上一级 [img]](page/后端/JavaNote/3_Liunx/img/)
+- [1_安装](page/后端/JavaNote/3_Liunx/img/1_安装/)

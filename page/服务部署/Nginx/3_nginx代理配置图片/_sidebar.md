@@ -1,2 +1,2 @@
-- [返回上一级 [Nginx]](服务部署/Nginx/)
-- [3_nginx代理配置图片](服务部署/Nginx/3_nginx代理配置图片/)
+- [返回上一级 [Nginx]](page/服务部署/Nginx/)
+- [3_nginx代理配置图片](page/服务部署/Nginx/3_nginx代理配置图片/)

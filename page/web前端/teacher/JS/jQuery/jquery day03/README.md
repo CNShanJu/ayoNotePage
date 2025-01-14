@@ -1,2 +1,2 @@
-- [返回上一级 [jQuery]](web前端/teacher/JS/jQuery/)
-- [jquery day03](web前端/teacher/JS/jQuery/jquery%20day03/)
+- [返回上一级 [jQuery]](page/web前端/teacher/JS/jQuery/)
+- [jquery day03](page/web前端/teacher/JS/jQuery/jquery%20day03/)

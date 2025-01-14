@@ -1,2 +1,2 @@
-- [返回上一级 [img]](视频/ffmpeg/img/)
-- [2_使用](视频/ffmpeg/img/2_使用/)
+- [返回上一级 [img]](page/视频/ffmpeg/img/)
+- [2_使用](page/视频/ffmpeg/img/2_使用/)

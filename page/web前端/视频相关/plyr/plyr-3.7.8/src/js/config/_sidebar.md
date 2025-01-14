@@ -1,2 +1,2 @@
-- [返回上一级 [js]](web前端/视频相关/plyr/plyr-3.7.8/src/js/)
-- [config](web前端/视频相关/plyr/plyr-3.7.8/src/js/config/)
+- [返回上一级 [js]](page/web前端/视频相关/plyr/plyr-3.7.8/src/js/)
+- [config](page/web前端/视频相关/plyr/plyr-3.7.8/src/js/config/)

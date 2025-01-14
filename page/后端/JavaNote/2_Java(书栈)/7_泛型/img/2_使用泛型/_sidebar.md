@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/JavaNote/2_Java(书栈)/7_泛型/img/)
-- [2_使用泛型](后端/JavaNote/2_Java(书栈)/7_泛型/img/2_使用泛型/)
+- [返回上一级 [img]](page/后端/JavaNote/2_Java(书栈)/7_泛型/img/)
+- [2_使用泛型](page/后端/JavaNote/2_Java(书栈)/7_泛型/img/2_使用泛型/)

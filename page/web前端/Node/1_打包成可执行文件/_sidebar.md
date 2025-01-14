@@ -1,3 +1,3 @@
-- [返回上一级 [Node]](web前端/Node/)
-- [1_打包成可执行文件](web前端/Node/1_打包成可执行文件/)
-  - [1_ pkg打包node](web前端/Node/1_打包成可执行文件/1_%20pkg打包node.md)
+- [返回上一级 [Node]](page/web前端/Node/)
+- [1_打包成可执行文件](page/web前端/Node/1_打包成可执行文件/)
+  - [1_ pkg打包node](page/web前端/Node/1_打包成可执行文件/1_%20pkg打包node.md)

@@ -1,2 +1,2 @@
-- [返回上一级 [vim]](服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/)
-- [indent](服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/indent/)
+- [返回上一级 [vim]](page/服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/)
+- [indent](page/服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/indent/)

@@ -1,2 +1,2 @@
-- [返回上一级 [angular]](web前端/工具库/Swiper/swiper-8.4.7/swiper/angular/)
-- [fesm2015](web前端/工具库/Swiper/swiper-8.4.7/swiper/angular/fesm2015/)
+- [返回上一级 [angular]](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/angular/)
+- [fesm2015](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/angular/fesm2015/)

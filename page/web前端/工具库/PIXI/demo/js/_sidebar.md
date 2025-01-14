@@ -1,2 +1,2 @@
-- [返回上一级 [demo]](web前端/工具库/PIXI/demo/)
-- [js](web前端/工具库/PIXI/demo/js/)
+- [返回上一级 [demo]](page/web前端/工具库/PIXI/demo/)
+- [js](page/web前端/工具库/PIXI/demo/js/)

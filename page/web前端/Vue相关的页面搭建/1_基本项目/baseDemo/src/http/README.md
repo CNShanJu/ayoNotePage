@@ -1,3 +1,3 @@
-- [返回上一级 [src]](web前端/Vue相关的页面搭建/1_基本项目/baseDemo/src/)
-- [http](web前端/Vue相关的页面搭建/1_基本项目/baseDemo/src/http/)
-  - [api](web前端/Vue相关的页面搭建/1_基本项目/baseDemo/src/http/api/)
+- [返回上一级 [src]](page/web前端/Vue相关的页面搭建/1_基本项目/baseDemo/src/)
+- [http](page/web前端/Vue相关的页面搭建/1_基本项目/baseDemo/src/http/)
+  - [api](page/web前端/Vue相关的页面搭建/1_基本项目/baseDemo/src/http/api/)

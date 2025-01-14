@@ -1,3 +1,3 @@
-- [返回上一级 [Elasticsearch]](后端/SQL/Elasticsearch/)
-- [img](后端/SQL/Elasticsearch/img/)
-  - [1_Docker安装](后端/SQL/Elasticsearch/img/1_Docker安装/)
+- [返回上一级 [Elasticsearch]](page/后端/SQL/Elasticsearch/)
+- [img](page/后端/SQL/Elasticsearch/img/)
+  - [1_Docker安装](page/后端/SQL/Elasticsearch/img/1_Docker安装/)

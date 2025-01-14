@@ -1,2 +1,2 @@
-- [返回上一级 [vim]](服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/)
-- [ftdetect](服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/ftdetect/)
+- [返回上一级 [vim]](page/服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/)
+- [ftdetect](page/服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/ftdetect/)

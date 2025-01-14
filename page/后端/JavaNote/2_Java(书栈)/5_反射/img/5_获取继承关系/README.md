@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/JavaNote/2_Java(书栈)/5_反射/img/)
-- [5_获取继承关系](后端/JavaNote/2_Java(书栈)/5_反射/img/5_获取继承关系/)
+- [返回上一级 [img]](page/后端/JavaNote/2_Java(书栈)/5_反射/img/)
+- [5_获取继承关系](page/后端/JavaNote/2_Java(书栈)/5_反射/img/5_获取继承关系/)

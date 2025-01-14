@@ -1,2 +1,2 @@
-- [返回上一级 [src]](web前端/Vue相关的页面搭建/1_基本项目/baseDemo/src/)
-- [router](web前端/Vue相关的页面搭建/1_基本项目/baseDemo/src/router/)
+- [返回上一级 [src]](page/web前端/Vue相关的页面搭建/1_基本项目/baseDemo/src/)
+- [router](page/web前端/Vue相关的页面搭建/1_基本项目/baseDemo/src/router/)

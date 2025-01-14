@@ -1,2 +1,2 @@
-- [返回上一级 [Vue2]](web前端/Vue/Vue2/)
-- [3_虚拟DOM](web前端/Vue/Vue2/3_虚拟DOM/)
+- [返回上一级 [Vue2]](page/web前端/Vue/Vue2/)
+- [3_虚拟DOM](page/web前端/Vue/Vue2/3_虚拟DOM/)

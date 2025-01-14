@@ -1,2 +1,2 @@
-- [返回上一级 [React]](web前端/React/)
-- [1_1_React入门](web前端/React/1_1_React入门/)
+- [返回上一级 [React]](page/web前端/React/)
+- [1_1_React入门](page/web前端/React/1_1_React入门/)

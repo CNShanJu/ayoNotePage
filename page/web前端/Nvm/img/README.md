@@ -1,4 +1,4 @@
-- [返回上一级 [Nvm]](web前端/Nvm/)
-- [img](web前端/Nvm/img/)
-  - [1_安装配置](web前端/Nvm/img/1_安装配置/)
-  - [2_ubuntu安装](web前端/Nvm/img/2_ubuntu安装/)
+- [返回上一级 [Nvm]](page/web前端/Nvm/)
+- [img](page/web前端/Nvm/img/)
+  - [1_安装配置](page/web前端/Nvm/img/1_安装配置/)
+  - [2_ubuntu安装](page/web前端/Nvm/img/2_ubuntu安装/)

@@ -1,2 +1,2 @@
-- [返回上一级 [modules]](web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/)
-- [hash-navigation](web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/hash-navigation/)
+- [返回上一级 [modules]](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/)
+- [hash-navigation](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/modules/hash-navigation/)

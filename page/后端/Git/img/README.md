@@ -1,3 +1,3 @@
-- [返回上一级 [Git]](后端/Git/)
-- [img](后端/Git/img/)
-  - [5_git如何撤销commit(未push)](后端/Git/img/5_git如何撤销commit(未push)/)
+- [返回上一级 [Git]](page/后端/Git/)
+- [img](page/后端/Git/img/)
+  - [5_git如何撤销commit(未push)](page/后端/Git/img/5_git如何撤销commit(未push)/)

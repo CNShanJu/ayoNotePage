@@ -1,2 +1,2 @@
-- [返回上一级 [img]](web前端/Nvm/img/)
-- [1_安装配置](web前端/Nvm/img/1_安装配置/)
+- [返回上一级 [img]](page/web前端/Nvm/img/)
+- [1_安装配置](page/web前端/Nvm/img/1_安装配置/)

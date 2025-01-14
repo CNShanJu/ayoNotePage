@@ -1,2 +1,2 @@
-- [返回上一级 [img]](后端/持续集成/jenkins/img/)
-- [4_配置环境](后端/持续集成/jenkins/img/4_配置环境/)
+- [返回上一级 [img]](page/后端/持续集成/jenkins/img/)
+- [4_配置环境](page/后端/持续集成/jenkins/img/4_配置环境/)

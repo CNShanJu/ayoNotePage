@@ -1,2 +1,2 @@
-- [返回上一级 [Redis]](后端/SQL/Redis/)
-- [1_安装图片](后端/SQL/Redis/1_安装图片/)
+- [返回上一级 [Redis]](page/后端/SQL/Redis/)
+- [1_安装图片](page/后端/SQL/Redis/1_安装图片/)

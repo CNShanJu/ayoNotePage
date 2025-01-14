@@ -1,2 +1,2 @@
-- [返回上一级 [1_java基础_初版(颜群java)]](后端/JavaNote/1_java基础_初版(颜群java)/)
-- [2_程序分析](后端/JavaNote/1_java基础_初版(颜群java)/2_程序分析/)
+- [返回上一级 [1_java基础_初版(颜群java)]](page/后端/JavaNote/1_java基础_初版(颜群java)/)
+- [2_程序分析](page/后端/JavaNote/1_java基础_初版(颜群java)/2_程序分析/)

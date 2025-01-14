@@ -1,3 +1,3 @@
-- [返回上一级 [angular]](web前端/工具库/Swiper/swiper-8.4.7/swiper/angular/angular/)
-- [src](web前端/工具库/Swiper/swiper-8.4.7/swiper/angular/angular/src/)
-  - [utils](web前端/工具库/Swiper/swiper-8.4.7/swiper/angular/angular/src/utils/)
+- [返回上一级 [angular]](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/angular/angular/)
+- [src](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/angular/angular/src/)
+  - [utils](page/web前端/工具库/Swiper/swiper-8.4.7/swiper/angular/angular/src/utils/)

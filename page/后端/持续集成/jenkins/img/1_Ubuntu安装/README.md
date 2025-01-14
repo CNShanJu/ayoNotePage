@@ -1,0 +1,2 @@
+- [返回上一级 [img]](后端/持续集成/jenkins/img/)
+- [1_Ubuntu安装](后端/持续集成/jenkins/img/1_Ubuntu安装/)

@@ -1,0 +1,8 @@
+- [返回上一级 [jenkins]](后端/持续集成/jenkins/)
+- [img](后端/持续集成/jenkins/img/)
+  - [1_Ubuntu安装](后端/持续集成/jenkins/img/1_Ubuntu安装/)
+  - [2_Windows安装](后端/持续集成/jenkins/img/2_Windows安装/)
+  - [3_Docker安装](后端/持续集成/jenkins/img/3_Docker安装/)
+  - [4_配置环境](后端/持续集成/jenkins/img/4_配置环境/)
+  - [5_使用密钥连接服务器](后端/持续集成/jenkins/img/5_使用密钥连接服务器/)
+  - [6_使用私钥连接gitea](后端/持续集成/jenkins/img/6_使用私钥连接gitea/)

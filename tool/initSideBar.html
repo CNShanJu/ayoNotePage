@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+
+        <style>
+            h2 {
+                text-align: center;
+            }
+
+            #file_input {
+                display: none;
+            }
+
+            .userBtn {
+                padding: 6px 25px;
+                background: #00bfff;
+                border-radius: 4px;
+                color: white;
+                cursor: pointer;
+                border: none;
+            }
+
+            .userBtn:active {
+                background-color: #00bfff90;
+            }
+
+            .userBtn[disabled] {
+                background: #00bfff60;
+                cursor: not-allowed;
+            }
+
+            #dataShowArea {
+                width: 100%;
+                height: 600px;
+                border: 1px solid #000;
+                box-sizing: border-box;
+                margin-top: 20px;
+                overflow: hidden;
+                padding: 20px;
+                padding-top: 10px;
+                background: #0cff0014;
+                border-radius: 6px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+
+            #dataShowArea #realityArea {
+                width: 100%;
+                flex: 1;
+                overflow: overlay;
+                box-sizing: border-box;
+                margin: 0px;
+                color: #3300ed;
+                /* border: 1px solid #3300ed; */
+                border-radius: 6px;
+            }
+
+            #dataShowArea #realityArea::-webkit-scrollbar {
+                display: none;
+            }
+
+            #dataShowArea .hintUser {
+                width: 100%;
+                color: #3300ed;
+                text-align: center;
+                font-style: italic;
+                margin-bottom: 10px;
+            }
+
+            .userBtnArea {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>文件夹路径生成json文件</h2>
+        <div class="userBtnArea">
+            <button id="coverInput" class="userBtn" onclick="coverInputClick()">选择文件夹</button>
+            <button id="saveJson" class="userBtn" onclick="saveJsonFile()" disabled>
+                输出JSON文件
+            </button>
+        </div>
+
+        <!-- 选取单个文件 -->
+        <!-- <input type="file" id="file" onchange="handleFiles(this.files)" /> -->
+        <!-- 选取多个文件 -->
+        <!-- <input type="file" id="file_input" multiple="multiple" onchange="handleFiles(this.files)" /> -->
+
+        <!-- 选取单个文件夹 -->
+        <input
+            type="file"
+            id="file_input"
+            webkitdirectory
+            directory
+            onchange="outputFile(this.files)"
+        />
+
+        <!-- 存放加载文件的数据的区域 -->
+        <div id="dataShowArea">
+            <div class="hintUser">数据预览</div>
+            <pre id="realityArea" class="hljs"></pre>
+        </div>
+
+        <script>
+            //全局的文件 json 数据
+            let filesData = '';
+            let obj = document.getElementById('realityArea');
+            let saveJsonBtn = document.getElementById('saveJson');
+
+            //按钮点击触发input标签的点击
+            function coverInputClick() {
+                document.getElementById('file_input').click();
+            }
+
+            //报错json文件
+            function saveJsonFile(data) {
+                saveToJson(filesData);
+            }
+
+            //File 文件格式需要转成 Object => 将字段提出方便装换
+            const fileField = [
+                'lastModified',
+                'lastModifiedDate',
+                'name',
+                'size',
+                'type',
+                'webkitRelativePath',
+            ];
+
+            //文件 目录数据生成
+            async function handleFiles(files) {
+                if (files.length > 0) {
+                    let catalogue = {
+                        // childer:{}
+                    };
+                    for (fileItem of files) {
+                        //获取要插入的对象 => File类型不能直接插入，会报错 => File类型不归属于Object类型
+                        let fileData = {};
+                        fileField.forEach((item) => {
+                            fileData[item] = eval(`fileItem.${item}.toString()`);
+                        });
+                        //文件的name值为  xx.文件属性  会在执行插入语句时报错，只拿文件名，不拿文件属性
+                        fileData.noTypeName = fileData.name.split('.')[0];
+
+                        let fileData_ = JSON.stringify(fileData);
+
+                        //获取树的每个字段
+                        let catalogueField = fileItem.webkitRelativePath.split('/');
+                        //要执行的js语句拼接
+                        let objStr = catalogueField.reduce((pre, cur, index, arr) => {
+                            /**
+                             * pre：上一次调用返回的值，或者提供的初始值
+                             * cur：数组中当前处理的元素
+                             * index：数组中当前处理的元素的下标
+                             * arr：调用reduce函数的数组
+                             * */
+                            if (index >= arr.length - 1) {
+                                !eval(pre) && eval(`${pre}={isLeaf:true}`);
+                                pre = `${pre}['${fileData.noTypeName}']`;
+                            } else {
+                                index == 0
+                                    ? (pre = `${pre}['${cur}']`)
+                                    : (pre = `${pre}.Folder['${cur}']`);
+                                !eval(pre) && eval(`${pre}={isLeaf:false,type:'folder',Folder:{}}`);
+                            }
+                            // !eval(pre) && (eval(`${pre}={isLeaf:false}`))
+                            return pre;
+                        }, 'catalogue');
+
+                        eval(`${objStr}={isLeaf:true,...${fileData_}}`);
+                    }
+
+                    return catalogue;
+                }
+            }
+
+            //写成json文件输出
+            function saveToJson(data) {
+                if (!data) {
+                    console.error('json文件的数据对象不存在');
+                    return;
+                }
+                /**
+                 * JSON.stringify(value[, replacer [, space]])
+                 *
+                 * value:将要序列化成 一个 JSON 字符串的值。
+                 *
+                 * replacer
+                 * 如果该参数是一个函数，则在序列化过程中，被序列化的值的每个属性都会经过该函数的转换和处理；
+                 * 如果该参数是一个数组，则只有包含在这个数组中的属性名才会被序列化到最终的 JSON 字符串中；
+                 * 如果该参数为 null 或者未提供，则对象所有的属性都会被序列化。
+                 *
+                 * space
+                 * 指定缩进用的空白字符串，用于美化输出（pretty-print）；
+                 * 如果参数是个数字，它代表有多少的空格；上限为 10。该值若小于 1，则意味着没有空格；
+                 * 如果该参数为字符串（当字符串长度超过 10 个字母，取其前 10 个字母），该字符串将被作为空格；
+                 * 如果该参数没有提供（或者为 null），将没有空格。
+                 * */
+                var content = JSON.stringify(data, null, '\t');
+
+                // 转成blob数据对象
+                var blob = new Blob([content], {
+                    type: 'text/plain;charset=utf-8',
+                });
+                //第二步 => 文件数据 转为可以 下载 的地址路径 改路径指向文件数据
+                /**
+                 * objectURL = URL.createObjectURL(object);
+                 *
+                 * object:用于创建 URL 的 File 对象、Blob 对象或者 MediaSource 对象。
+                 * 返回值:一个DOMString包含了一个对象 URL，该 URL 可用于指定源 object的内容。
+                 *
+                 * 在每次调用 createObjectURL() 方法时，都会创建一个新的 URL 对象，
+                 * 即使你已经用相同的对象作为参数创建过。当不再需要这些 URL 对象时，每个对象必须通过调用 URL.revokeObjectURL() 方法来释放。
+                 *
+                 *
+                 * 与FileReader.readAsDataURL(file)区别
+                 * 主要区别
+                 * 通过FileReader.readAsDataURL(file)可以获取一段data:base64的字符串
+                 * 通过URL.createObjectURL(blob)可以获取当前文件的一个内存URL
+                 *
+                 * 执行时机
+                 * createObjectURL是同步执行（立即的）
+                 * FileReader.readAsDataURL是异步执行（过一段时间）
+                 *
+                 * 内存使用
+                 * createObjectURL返回一段带hash的url，并且一直存储在内存中，直到document触发了unload事件（例如：document close）或者执行revokeObjectURL来释放。
+                 * FileReader.readAsDataURL则返回包含很多字符的base64，并会比blob url消耗更多内存，但是在不用的时候会自动从内存中清除（通过垃圾回收机制）
+                 *
+                 * 优劣对比
+                 * 使用createObjectURL可以节省性能并更快速，只不过需要在不使用的情况下手动释放内存
+                 * 如果不太在意设备性能问题，并想获取图片的base64，则推荐使用FileReader.readAsDataURL
+                 * */
+                let url = window.URL.createObjectURL(blob);
+                //这里你会看到类似的地址：blob:http://localhost:8080/d2dbbe3f-7466-415b-a2d0-387cff290acb
+                console.log(url);
+                //动态创建a标签 => 模拟触发a标签的下载 => 用于将生成的json数据下载到本地
+                let link = document.createElement('a');
+                link.style.display = 'none';
+                link.href = url;
+                link.setAttribute('download', 'model.json');
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                window.URL.revokeObjectURL(url);
+            }
+
+            /* 文件输出 */
+            function outputFile(files) {
+                filesData = '';
+                btnDisabled(saveJsonBtn);
+                handleFiles(files)
+                    .then((res) => {
+                        filesData = res;
+                        btnCanClick(saveJsonBtn);
+                        obj.innerText = JSON.stringify(res, null, 2);
+                    })
+                    .catch((err) => {
+                        console.error(err);
+                    });
+            }
+
+            /* 按钮可选 */
+            function btnCanClick(btnObj) {
+                btnObj.removeAttribute('disabled');
+            }
+
+            /* 按钮不可选 */
+            function btnDisabled(btnObj) {
+                btnObj.setAttribute('disabled', 'disabled');
+            }
+        </script>
+    </body>
+</html>

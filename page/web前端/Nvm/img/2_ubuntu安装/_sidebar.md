@@ -1,0 +1,2 @@
+- [返回上一级 [img]](web前端/Nvm/img/)
+- [2_ubuntu安装](web前端/Nvm/img/2_ubuntu安装/)

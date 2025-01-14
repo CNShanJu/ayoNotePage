@@ -1,0 +1,5 @@
+- [返回上一级 [Gitea与Jenkins的集成]](后端/持续集成/Gitea与Jenkins的集成/)
+- [img](后端/持续集成/Gitea与Jenkins的集成/img/)
+  - [1_集成](后端/持续集成/Gitea与Jenkins的集成/img/1_集成/)
+  - [2_前端项目更新打包部署](后端/持续集成/Gitea与Jenkins的集成/img/2_前端项目更新打包部署/)
+  - [3_Springboot项目镜像部署](后端/持续集成/Gitea与Jenkins的集成/img/3_Springboot项目镜像部署/)

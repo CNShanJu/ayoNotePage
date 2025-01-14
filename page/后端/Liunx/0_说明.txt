@@ -1,0 +1,10 @@
+学习网站（菜鸟）：https://www.runoob.com/linux/linux-tutorial.html
+
+
+Ubuntu常用命令大全：https://developer.aliyun.com/article/240538
+
+
+Ubuntu 命令常用命令-汇总（更新）：https://zhuanlan.zhihu.com/p/396959261#:~:text=Ubuntu%20%E5%91%BD%E4%BB%A4%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4-%E6%B1%87%E6%80%BB%EF%BC%88%E6%9B%B4%E6%96%B0%EF%BC%89%201%202%E3%80%81pid%E6%9F%A5%E7%9C%8B%2F%E7%9B%91%E6%8E%A7%20%E4%BD%BF%E7%94%A8top%E6%88%96%E8%80%85htop%E8%BF%9B%E8%A1%8C%E7%9B%91%E6%8E%A7%EF%BC%8C%E4%B8%AA%E4%BA%BA%E5%81%8F%E5%90%91%E4%B8%8Ehtop%EF%BC%8C%E6%9B%B4%E5%8A%A0%E5%85%A8%E9%9D%A2%20top%20%E6%88%96%E8%80%85%20htop,3%2011.1%E3%80%81%E6%9F%A5%E7%9C%8B%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95%E4%B8%8B%E5%90%84%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9%E7%9A%84%E5%A4%A7%E5%B0%8F%20du%20-sh%20.%2F%2A%20--exclude%20proc%20
+
+
+手册：https://www.linuxcool.com/

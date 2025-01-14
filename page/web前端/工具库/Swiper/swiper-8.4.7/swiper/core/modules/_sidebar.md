@@ -1,0 +1,4 @@
+- [返回上一级 [core]](web前端/工具库/Swiper/swiper-8.4.7/swiper/core/)
+- [modules](web前端/工具库/Swiper/swiper-8.4.7/swiper/core/modules/)
+  - [observer](web前端/工具库/Swiper/swiper-8.4.7/swiper/core/modules/observer/)
+  - [resize](web前端/工具库/Swiper/swiper-8.4.7/swiper/core/modules/resize/)

@@ -1,0 +1,2 @@
+- [返回上一级 [img]](后端/持续集成/git/gitlab/img/)
+- [2_ubuntu系统安装配置gitlab](后端/持续集成/git/gitlab/img/2_ubuntu系统安装配置gitlab/)

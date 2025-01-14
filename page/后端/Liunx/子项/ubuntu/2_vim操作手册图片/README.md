@@ -1,0 +1,2 @@
+- [返回上一级 [ubuntu]](后端/Liunx/子项/ubuntu/)
+- [2_vim操作手册图片](后端/Liunx/子项/ubuntu/2_vim操作手册图片/)

@@ -1,0 +1,1304 @@
+2024/07/08 10:15:50 [emerg] 1#1: open() "/home/docker_volume/nginx/logs/error.log" failed (2: No such file or directory)
+2024/07/08 10:17:03 [emerg] 1#1: open() "/home/docker_volume/nginx/logs/access.log" failed (2: No such file or directory)
+2024/07/08 10:30:37 [notice] 1#1: using the "epoll" event method
+2024/07/08 10:30:37 [notice] 1#1: nginx/1.26.1
+2024/07/08 10:30:37 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 10:30:37 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 10:30:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 10:30:37 [emerg] 1#1: open() "/var/run/nginx.pid" failed (21: Is a directory)
+2024/07/08 10:33:49 [notice] 1#1: using the "epoll" event method
+2024/07/08 10:33:49 [notice] 1#1: nginx/1.26.1
+2024/07/08 10:33:49 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 10:33:49 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 10:33:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 10:33:49 [notice] 1#1: start worker processes
+2024/07/08 10:33:49 [notice] 1#1: start worker process 22
+2024/07/08 10:33:49 [notice] 1#1: start worker process 23
+2024/07/08 10:34:58 [error] 22#22: *4 "/home/docker_volume/nginx/html/index.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: , request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:34:58 [error] 22#22: *4 "/home/docker_volume/nginx/html/index.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: , request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:34:59 [error] 22#22: *6 "/home/docker_volume/nginx/html/index.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: , request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:35:28 [error] 22#22: *4 "/home/docker_volume/nginx/html/index.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: , request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:35:28 [error] 22#22: *6 "/home/docker_volume/nginx/html/index.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: , request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:35:31 [error] 22#22: *4 "/home/docker_volume/nginx/html/index.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: , request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:35:31 [error] 22#22: *6 "/home/docker_volume/nginx/html/index.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: , request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:43:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 10:43:54 [notice] 23#23: gracefully shutting down
+2024/07/08 10:43:54 [notice] 23#23: exiting
+2024/07/08 10:43:54 [notice] 23#23: exit
+2024/07/08 10:43:54 [notice] 22#22: gracefully shutting down
+2024/07/08 10:43:54 [notice] 22#22: exiting
+2024/07/08 10:43:54 [notice] 22#22: exit
+2024/07/08 10:43:54 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 10:43:54 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 10:43:54 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 10:43:54 [notice] 1#1: exit
+2024/07/08 10:43:56 [notice] 1#1: using the "epoll" event method
+2024/07/08 10:43:56 [notice] 1#1: nginx/1.26.1
+2024/07/08 10:43:56 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 10:43:56 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 10:43:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 10:43:56 [notice] 1#1: start worker processes
+2024/07/08 10:43:56 [notice] 1#1: start worker process 22
+2024/07/08 10:43:56 [notice] 1#1: start worker process 23
+2024/07/08 10:44:01 [error] 22#22: *1 "/etc/nginx/index.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: , request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:44:01 [error] 23#23: *3 "/etc/nginx/index.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: , request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:44:04 [error] 22#22: *1 "/etc/nginx/index.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: , request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:44:04 [error] 23#23: *3 "/etc/nginx/index.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: , request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:46:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 10:46:42 [notice] 22#22: gracefully shutting down
+2024/07/08 10:46:42 [notice] 22#22: exiting
+2024/07/08 10:46:42 [notice] 22#22: exit
+2024/07/08 10:46:42 [notice] 23#23: gracefully shutting down
+2024/07/08 10:46:42 [notice] 23#23: exiting
+2024/07/08 10:46:42 [notice] 23#23: exit
+2024/07/08 10:46:43 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 10:46:43 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 10:46:43 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 10:46:43 [notice] 1#1: exit
+2024/07/08 10:46:44 [notice] 1#1: using the "epoll" event method
+2024/07/08 10:46:44 [notice] 1#1: nginx/1.26.1
+2024/07/08 10:46:44 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 10:46:44 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 10:46:44 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 10:46:44 [notice] 1#1: start worker processes
+2024/07/08 10:46:44 [notice] 1#1: start worker process 22
+2024/07/08 10:46:44 [notice] 1#1: start worker process 23
+2024/07/08 10:47:15 [error] 22#22: *1 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:47:15 [error] 23#23: *3 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:47:18 [error] 22#22: *1 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:47:19 [error] 23#23: *3 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:54:05 [error] 22#22: *6 open() "/usr/share/nginx/html/web/404" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:54:06 [error] 22#22: *8 open() "/usr/share/nginx/html/web/404" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:54:14 [error] 22#22: *6 open() "/usr/share/nginx/html/web/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/404.html HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:54:15 [error] 22#22: *8 open() "/usr/share/nginx/html/web/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/404.html HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:54:17 [error] 22#22: *6 open() "/usr/share/nginx/html/web/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/404.html HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:54:17 [error] 22#22: *8 open() "/usr/share/nginx/html/web/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/404.html HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:55:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 10:55:48 [notice] 22#22: gracefully shutting down
+2024/07/08 10:55:48 [notice] 22#22: exiting
+2024/07/08 10:55:48 [notice] 23#23: gracefully shutting down
+2024/07/08 10:55:48 [notice] 23#23: exiting
+2024/07/08 10:55:48 [notice] 22#22: exit
+2024/07/08 10:55:48 [notice] 23#23: exit
+2024/07/08 10:55:48 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 10:55:48 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 10:55:48 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 10:55:48 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 10:55:48 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 10:55:48 [notice] 1#1: exit
+2024/07/08 10:55:49 [notice] 1#1: using the "epoll" event method
+2024/07/08 10:55:49 [notice] 1#1: nginx/1.26.1
+2024/07/08 10:55:49 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 10:55:49 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 10:55:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 10:55:49 [notice] 1#1: start worker processes
+2024/07/08 10:55:49 [notice] 1#1: start worker process 22
+2024/07/08 10:55:49 [notice] 1#1: start worker process 23
+2024/07/08 10:55:54 [error] 23#23: *1 open() "/usr/share/nginx/html/web/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/404.html HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:55:55 [error] 23#23: *3 open() "/usr/share/nginx/html/web/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/404.html HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:55:59 [error] 23#23: *1 open() "/usr/share/nginx/html/web/xxxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 10:55:59 [error] 23#23: *3 open() "/usr/share/nginx/html/web/xxxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:07:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:07:55 [notice] 23#23: gracefully shutting down
+2024/07/08 11:07:55 [notice] 23#23: exiting
+2024/07/08 11:07:55 [notice] 22#22: gracefully shutting down
+2024/07/08 11:07:55 [notice] 22#22: exiting
+2024/07/08 11:07:55 [notice] 23#23: exit
+2024/07/08 11:07:55 [notice] 22#22: exit
+2024/07/08 11:07:55 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:07:55 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:07:55 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:07:55 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:07:55 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:07:55 [notice] 1#1: exit
+2024/07/08 11:07:56 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:07:56 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:07:56 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:07:56 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:07:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:07:56 [notice] 1#1: start worker processes
+2024/07/08 11:07:56 [notice] 1#1: start worker process 22
+2024/07/08 11:07:56 [notice] 1#1: start worker process 23
+2024/07/08 11:08:02 [error] 23#23: *1 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:08:03 [error] 22#22: *3 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:08:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:08:45 [notice] 22#22: gracefully shutting down
+2024/07/08 11:08:45 [notice] 22#22: exiting
+2024/07/08 11:08:45 [notice] 22#22: exit
+2024/07/08 11:08:45 [notice] 23#23: gracefully shutting down
+2024/07/08 11:08:45 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:08:45 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:08:45 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:08:56 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:08:56 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:08:56 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:08:56 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:08:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:08:56 [notice] 1#1: start worker processes
+2024/07/08 11:08:56 [notice] 1#1: start worker process 22
+2024/07/08 11:08:56 [notice] 1#1: start worker process 23
+2024/07/08 11:08:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:08:58 [notice] 22#22: gracefully shutting down
+2024/07/08 11:08:58 [notice] 22#22: exiting
+2024/07/08 11:08:58 [notice] 23#23: gracefully shutting down
+2024/07/08 11:08:58 [notice] 23#23: exiting
+2024/07/08 11:08:58 [notice] 22#22: exit
+2024/07/08 11:08:58 [notice] 23#23: exit
+2024/07/08 11:08:58 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:08:58 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:08:58 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:08:58 [notice] 1#1: exit
+2024/07/08 11:08:59 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:08:59 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:08:59 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:08:59 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:08:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:08:59 [notice] 1#1: start worker processes
+2024/07/08 11:08:59 [notice] 1#1: start worker process 22
+2024/07/08 11:08:59 [notice] 1#1: start worker process 23
+2024/07/08 11:09:03 [error] 22#22: *1 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:09:03 [error] 22#22: *1 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:09:03 [error] 22#22: *2 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:09:03 [error] 22#22: *3 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:09:03 [error] 22#22: *4 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:09:03 [error] 23#23: *5 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:09:03 [error] 22#22: *6 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:10:37 [error] 22#22: *7 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:10:37 [error] 22#22: *8 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:10:45 [error] 22#22: *8 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:10:46 [error] 22#22: *8 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:10:46 [error] 23#23: *9 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:10:46 [error] 23#23: *10 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:10:46 [error] 23#23: *11 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:10:46 [error] 22#22: *7 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:10:46 [error] 22#22: *12 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:14:56 [error] 22#22: *13 open() "/usr/share/nginx/html/web/404/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/reset.css HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:14:56 [error] 22#22: *13 open() "/usr/share/nginx/html/web/404/css/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/css/reset.css"
+2024/07/08 11:14:56 [error] 22#22: *14 open() "/usr/share/nginx/html/web/404/css/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/css/reset.css"
+2024/07/08 11:14:56 [error] 23#23: *15 open() "/usr/share/nginx/html/web/404/css/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/css/reset.css"
+2024/07/08 11:14:56 [error] 23#23: *16 open() "/usr/share/nginx/html/web/404/css/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/css/reset.css"
+2024/07/08 11:14:56 [error] 23#23: *17 open() "/usr/share/nginx/html/web/404/css/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/css/reset.css"
+2024/07/08 11:14:57 [error] 22#22: *18 open() "/usr/share/nginx/html/web/404/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/reset.css HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:15:03 [error] 23#23: *17 open() "/usr/share/nginx/html/web/404/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/reset.css HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:15:04 [error] 22#22: *14 open() "/usr/share/nginx/html/web/404/css/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/css/reset.css"
+2024/07/08 11:15:04 [error] 23#23: *17 open() "/usr/share/nginx/html/web/404/css/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/css/reset.css"
+2024/07/08 11:15:04 [error] 23#23: *16 open() "/usr/share/nginx/html/web/404/css/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/css/reset.css"
+2024/07/08 11:15:04 [error] 23#23: *15 open() "/usr/share/nginx/html/web/404/css/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/css/reset.css"
+2024/07/08 11:15:04 [error] 22#22: *13 open() "/usr/share/nginx/html/web/404/css/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/css/reset.css"
+2024/07/08 11:15:04 [error] 22#22: *18 open() "/usr/share/nginx/html/web/404/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/css/reset.css HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:15:15 [error] 22#22: *19 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:15:15 [error] 22#22: *19 open() "/usr/share/nginx/html/web/css/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/css/reset.css"
+2024/07/08 11:15:15 [error] 22#22: *20 open() "/usr/share/nginx/html/web/css/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/css/reset.css"
+2024/07/08 11:15:15 [error] 22#22: *21 open() "/usr/share/nginx/html/web/css/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/css/reset.css"
+2024/07/08 11:15:15 [error] 22#22: *19 open() "/usr/share/nginx/html/web/css/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/css/reset.css"
+2024/07/08 11:15:15 [error] 22#22: *20 open() "/usr/share/nginx/html/web/css/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/css/reset.css"
+2024/07/08 11:15:16 [error] 22#22: *24 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:17:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:17:37 [notice] 22#22: gracefully shutting down
+2024/07/08 11:17:37 [notice] 22#22: exiting
+2024/07/08 11:17:37 [notice] 22#22: exit
+2024/07/08 11:17:37 [notice] 23#23: gracefully shutting down
+2024/07/08 11:17:37 [notice] 23#23: exiting
+2024/07/08 11:17:37 [notice] 23#23: exit
+2024/07/08 11:17:37 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:17:37 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:17:37 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:17:37 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:17:37 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:17:37 [notice] 1#1: exit
+2024/07/08 11:17:38 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:17:38 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:17:38 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:17:38 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:17:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:17:38 [notice] 1#1: start worker processes
+2024/07/08 11:17:38 [notice] 1#1: start worker process 22
+2024/07/08 11:17:38 [notice] 1#1: start worker process 23
+2024/07/08 11:17:40 [error] 23#23: *1 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:17:41 [error] 23#23: *1 open() "/usr/share/nginx/html/web/css/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/css/reset.css"
+2024/07/08 11:17:41 [error] 23#23: *2 open() "/usr/share/nginx/html/web/css/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/css/reset.css"
+2024/07/08 11:17:41 [error] 22#22: *3 open() "/usr/share/nginx/html/web/css/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/css/reset.css"
+2024/07/08 11:17:41 [error] 23#23: *1 open() "/usr/share/nginx/html/web/css/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/css/reset.css"
+2024/07/08 11:17:41 [error] 23#23: *4 open() "/usr/share/nginx/html/web/css/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/css/reset.css"
+2024/07/08 11:17:42 [error] 23#23: *6 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:17:46 [error] 23#23: *4 open() "/usr/share/nginx/html/web/404" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:17:46 [error] 23#23: *4 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:17:46 [error] 22#22: *3 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:17:46 [error] 22#22: *5 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:17:46 [error] 23#23: *2 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:17:46 [error] 23#23: *1 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:17:46 [error] 23#23: *6 open() "/usr/share/nginx/html/web/404" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:17:55 [error] 23#23: *1 open() "/usr/share/nginx/html/web/404" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:17:55 [error] 23#23: *1 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:17:55 [error] 22#22: *5 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:17:55 [error] 23#23: *2 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:17:55 [error] 23#23: *4 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:17:55 [error] 22#22: *3 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:17:56 [error] 23#23: *6 open() "/usr/share/nginx/html/web/404" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:21:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:21:18 [notice] 23#23: gracefully shutting down
+2024/07/08 11:21:18 [notice] 22#22: gracefully shutting down
+2024/07/08 11:21:18 [notice] 23#23: exiting
+2024/07/08 11:21:18 [notice] 22#22: exiting
+2024/07/08 11:21:18 [notice] 23#23: exit
+2024/07/08 11:21:18 [notice] 22#22: exit
+2024/07/08 11:21:18 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:21:18 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:21:18 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:21:18 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:21:18 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:21:18 [notice] 1#1: exit
+2024/07/08 11:21:19 [emerg] 1#1: host not found in upstream "xd-project" in /etc/nginx/conf.d/base.conf:22
+2024/07/08 11:24:02 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:24:02 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:24:02 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:24:02 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:24:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:24:02 [notice] 1#1: start worker processes
+2024/07/08 11:24:02 [notice] 1#1: start worker process 22
+2024/07/08 11:24:02 [notice] 1#1: start worker process 23
+2024/07/08 11:24:02 [error] 22#22: *1 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:24:03 [error] 22#22: *1 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:24:03 [error] 22#22: *3 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:24:03 [error] 22#22: *4 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:24:03 [error] 23#23: *2 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:24:03 [error] 22#22: *5 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:24:04 [error] 22#22: *6 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:24:17 [error] 22#22: *7 open() "/usr/share/nginx/html/web/404" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:24:17 [error] 22#22: *7 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:24:17 [error] 22#22: *9 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:24:17 [error] 22#22: *8 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:24:17 [error] 22#22: *11 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:24:17 [error] 22#22: *10 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404"
+2024/07/08 11:24:18 [error] 22#22: *12 open() "/usr/share/nginx/html/web/404" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:24:23 [error] 22#22: *10 open() "/usr/share/nginx/html/web/web" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:24:23 [error] 22#22: *9 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web"
+2024/07/08 11:24:23 [error] 22#22: *8 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web"
+2024/07/08 11:24:23 [error] 22#22: *7 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web"
+2024/07/08 11:24:23 [error] 22#22: *10 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web"
+2024/07/08 11:24:23 [error] 22#22: *11 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web"
+2024/07/08 11:24:23 [error] 22#22: *12 open() "/usr/share/nginx/html/web/web" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:32:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:32:36 [notice] 22#22: gracefully shutting down
+2024/07/08 11:32:36 [notice] 22#22: exiting
+2024/07/08 11:32:36 [notice] 22#22: exit
+2024/07/08 11:32:36 [notice] 23#23: gracefully shutting down
+2024/07/08 11:32:36 [notice] 23#23: exiting
+2024/07/08 11:32:36 [notice] 23#23: exit
+2024/07/08 11:32:36 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:32:36 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:32:36 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:32:36 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:32:36 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:32:36 [notice] 1#1: exit
+2024/07/08 11:32:38 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:32:38 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:32:38 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:32:38 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:32:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:32:38 [notice] 1#1: start worker processes
+2024/07/08 11:32:38 [notice] 1#1: start worker process 22
+2024/07/08 11:32:38 [notice] 1#1: start worker process 23
+2024/07/08 11:32:53 [error] 22#22: *4 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:32:53 [error] 22#22: *4 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:32:53 [error] 22#22: *5 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:32:53 [error] 22#22: *6 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:32:53 [error] 22#22: *8 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:32:53 [error] 22#22: *7 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/xxx"
+2024/07/08 11:32:54 [error] 22#22: *9 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:33:32 [notice] 22#22: gracefully shutting down
+2024/07/08 11:33:32 [notice] 22#22: exiting
+2024/07/08 11:33:32 [notice] 22#22: exit
+2024/07/08 11:33:32 [notice] 23#23: gracefully shutting down
+2024/07/08 11:33:32 [notice] 23#23: exiting
+2024/07/08 11:33:32 [notice] 23#23: exit
+2024/07/08 11:33:32 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:33:32 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:33:32 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:33:32 [notice] 1#1: exit
+2024/07/08 11:33:33 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:33:33 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:33:33 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:33:33 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:33:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:33:33 [notice] 1#1: start worker processes
+2024/07/08 11:33:33 [notice] 1#1: start worker process 22
+2024/07/08 11:33:33 [notice] 1#1: start worker process 23
+2024/07/08 11:33:40 [error] 23#23: *1 open() "/usr/share/nginx/html/web/404" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:40 [error] 23#23: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 22#22: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:41 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:42 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:42 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:42 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:42 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:42 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:45 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:46 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:46 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:46 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:46 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:46 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:46 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:46 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:46 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:46 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:47 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:47 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:47 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:47 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:47 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:47 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:47 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:47 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:47 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:47 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:47 [error] 23#23: *4 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:33:52 [error] 23#23: *6 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:34:14 [notice] 22#22: gracefully shutting down
+2024/07/08 11:34:14 [notice] 22#22: exiting
+2024/07/08 11:34:14 [notice] 22#22: exit
+2024/07/08 11:34:14 [notice] 23#23: gracefully shutting down
+2024/07/08 11:34:14 [notice] 23#23: exiting
+2024/07/08 11:34:14 [notice] 23#23: exit
+2024/07/08 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:34:14 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:34:14 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:34:14 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:34:14 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:34:14 [notice] 1#1: exit
+2024/07/08 11:34:16 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:34:16 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:34:16 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:34:16 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:34:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:34:16 [notice] 1#1: start worker processes
+2024/07/08 11:34:16 [notice] 1#1: start worker process 22
+2024/07/08 11:34:16 [notice] 1#1: start worker process 23
+2024/07/08 11:34:19 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:19 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:20 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:29 [error] 23#23: *3 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:34 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:34 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:34:35 [error] 23#23: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:36:17 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:36:17 [notice] 22#22: gracefully shutting down
+2024/07/08 11:36:17 [notice] 22#22: exiting
+2024/07/08 11:36:17 [notice] 23#23: gracefully shutting down
+2024/07/08 11:36:17 [notice] 22#22: exit
+2024/07/08 11:36:17 [notice] 23#23: exiting
+2024/07/08 11:36:17 [notice] 23#23: exit
+2024/07/08 11:36:17 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:36:17 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:36:17 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:36:17 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:36:17 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:36:17 [notice] 1#1: exit
+2024/07/08 11:36:18 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:36:18 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:36:18 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:36:18 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:36:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:36:18 [notice] 1#1: start worker processes
+2024/07/08 11:36:18 [notice] 1#1: start worker process 22
+2024/07/08 11:36:18 [notice] 1#1: start worker process 23
+2024/07/08 11:36:23 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:36:23 [error] 22#22: *1 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:36:23 [error] 23#23: *2 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:36:23 [error] 22#22: *3 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:36:23 [error] 23#23: *5 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:36:23 [error] 22#22: *4 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:39:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:39:15 [notice] 23#23: gracefully shutting down
+2024/07/08 11:39:15 [notice] 23#23: exiting
+2024/07/08 11:39:15 [notice] 23#23: exit
+2024/07/08 11:39:15 [notice] 22#22: gracefully shutting down
+2024/07/08 11:39:15 [notice] 22#22: exiting
+2024/07/08 11:39:15 [notice] 22#22: exit
+2024/07/08 11:39:15 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:39:15 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:39:15 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:39:15 [notice] 1#1: exit
+2024/07/08 11:39:17 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:39:17 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:39:17 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:39:17 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:39:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:39:17 [notice] 1#1: start worker processes
+2024/07/08 11:39:17 [notice] 1#1: start worker process 22
+2024/07/08 11:39:17 [notice] 1#1: start worker process 23
+2024/07/08 11:39:21 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:39:21 [error] 22#22: *1 open() "/usr/share/nginx/html/404/error.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:39:32 [error] 22#22: *3 open() "/usr/share/nginx/html/web/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:39:32 [error] 22#22: *3 open() "/usr/share/nginx/html/404/error.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:39:33 [error] 22#22: *5 open() "/usr/share/nginx/html/web/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:39:33 [error] 22#22: *5 open() "/usr/share/nginx/html/404/error.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:39:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:39:54 [notice] 22#22: gracefully shutting down
+2024/07/08 11:39:54 [notice] 22#22: exiting
+2024/07/08 11:39:54 [notice] 22#22: exit
+2024/07/08 11:39:54 [notice] 23#23: gracefully shutting down
+2024/07/08 11:39:54 [notice] 23#23: exiting
+2024/07/08 11:39:54 [notice] 23#23: exit
+2024/07/08 11:39:54 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:39:54 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:39:54 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:39:54 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:39:54 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:39:54 [notice] 1#1: exit
+2024/07/08 11:39:56 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:39:56 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:39:56 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:39:56 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:39:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:39:56 [notice] 1#1: start worker processes
+2024/07/08 11:39:56 [notice] 1#1: start worker process 22
+2024/07/08 11:39:56 [notice] 1#1: start worker process 23
+2024/07/08 11:40:04 [error] 22#22: *3 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html"
+2024/07/08 11:40:04 [error] 23#23: *1 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html"
+2024/07/08 11:40:04 [error] 23#23: *2 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html"
+2024/07/08 11:40:04 [error] 23#23: *4 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html"
+2024/07/08 11:40:04 [error] 23#23: *5 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html"
+2024/07/08 11:40:08 [error] 23#23: *2 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:40:08 [error] 23#23: *2 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:08 [error] 22#22: *3 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:08 [error] 23#23: *5 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:08 [error] 23#23: *4 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:08 [error] 23#23: *1 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:16 [error] 22#22: *7 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:40:16 [error] 22#22: *7 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:16 [error] 22#22: *8 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:16 [error] 22#22: *10 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:16 [error] 22#22: *11 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:16 [error] 23#23: *9 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:40:42 [notice] 23#23: gracefully shutting down
+2024/07/08 11:40:42 [notice] 23#23: exiting
+2024/07/08 11:40:42 [notice] 23#23: exit
+2024/07/08 11:40:42 [notice] 22#22: gracefully shutting down
+2024/07/08 11:40:42 [notice] 22#22: exiting
+2024/07/08 11:40:42 [notice] 22#22: exit
+2024/07/08 11:40:42 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:40:42 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:40:42 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:40:42 [notice] 1#1: exit
+2024/07/08 11:40:43 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:40:43 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:40:43 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:40:43 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:40:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:40:43 [notice] 1#1: start worker processes
+2024/07/08 11:40:43 [notice] 1#1: start worker process 21
+2024/07/08 11:40:43 [notice] 1#1: start worker process 22
+2024/07/08 11:40:45 [error] 22#22: *1 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:40:45 [error] 22#22: *1 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:45 [error] 22#22: *2 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:45 [error] 21#21: *3 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:45 [error] 21#21: *4 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:45 [error] 21#21: *5 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:50 [error] 21#21: *5 "/usr/share/nginx/html/web/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:40:51 [error] 21#21: *5 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:51 [error] 22#22: *2 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:51 [error] 22#22: *1 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:51 [error] 21#21: *4 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:40:51 [error] 21#21: *3 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:44:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:44:00 [notice] 22#22: gracefully shutting down
+2024/07/08 11:44:00 [notice] 22#22: exiting
+2024/07/08 11:44:00 [notice] 21#21: gracefully shutting down
+2024/07/08 11:44:00 [notice] 21#21: exiting
+2024/07/08 11:44:00 [notice] 22#22: exit
+2024/07/08 11:44:00 [notice] 21#21: exit
+2024/07/08 11:44:00 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:44:00 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:44:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:44:00 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/07/08 11:44:00 [notice] 1#1: worker process 21 exited with code 0
+2024/07/08 11:44:00 [notice] 1#1: exit
+2024/07/08 11:44:01 [warn] 1#1: only the last index in "index" directive should be absolute in /etc/nginx/conf.d/base.conf:14
+2024/07/08 11:44:01 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:44:01 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:44:01 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:44:01 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:44:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:44:01 [notice] 1#1: start worker processes
+2024/07/08 11:44:01 [notice] 1#1: start worker process 22
+2024/07/08 11:44:01 [notice] 1#1: start worker process 23
+2024/07/08 11:44:09 [error] 23#23: *1 open() "/usr/share/nginx/html/40" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /40 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:44:09 [error] 23#23: *1 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /40 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:44:10 [error] 23#23: *3 open() "/usr/share/nginx/html/40" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /40 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:44:10 [error] 23#23: *3 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /40 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:44:17 [error] 23#23: *1 open() "/usr/share/nginx/html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/404.html"
+2024/07/08 11:44:17 [error] 23#23: *1 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/404.html"
+2024/07/08 11:44:17 [error] 22#22: *2 open() "/usr/share/nginx/html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/404.html"
+2024/07/08 11:44:17 [error] 22#22: *2 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/404.html"
+2024/07/08 11:44:17 [error] 23#23: *4 open() "/usr/share/nginx/html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/404.html"
+2024/07/08 11:44:17 [error] 23#23: *4 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/404.html"
+2024/07/08 11:44:17 [error] 23#23: *5 open() "/usr/share/nginx/html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/404.html"
+2024/07/08 11:44:17 [error] 23#23: *5 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/404.html"
+2024/07/08 11:44:17 [error] 23#23: *6 open() "/usr/share/nginx/html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/404.html"
+2024/07/08 11:44:17 [error] 23#23: *6 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404/404.html"
+2024/07/08 11:45:18 [error] 23#23: *4 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:45:18 [error] 23#23: *4 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:45:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:45:41 [notice] 23#23: gracefully shutting down
+2024/07/08 11:45:41 [notice] 22#22: gracefully shutting down
+2024/07/08 11:45:41 [notice] 23#23: exiting
+2024/07/08 11:45:41 [notice] 23#23: exit
+2024/07/08 11:45:41 [notice] 22#22: exiting
+2024/07/08 11:45:41 [notice] 22#22: exit
+2024/07/08 11:45:41 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:45:41 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:45:41 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:45:41 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:45:41 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:45:41 [notice] 1#1: exit
+2024/07/08 11:45:43 [warn] 1#1: only the last index in "index" directive should be absolute in /etc/nginx/conf.d/base.conf:14
+2024/07/08 11:45:43 [warn] 1#1: only the last index in "index" directive should be absolute in /etc/nginx/conf.d/base.conf:18
+2024/07/08 11:45:43 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:45:43 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:45:43 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:45:43 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:45:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:45:43 [notice] 1#1: start worker processes
+2024/07/08 11:45:43 [notice] 1#1: start worker process 22
+2024/07/08 11:45:43 [notice] 1#1: start worker process 23
+2024/07/08 11:45:50 [error] 22#22: *2 open() "/usr/share/nginx/html/style.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /style.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/"
+2024/07/08 11:45:50 [error] 22#22: *2 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /style.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/"
+2024/07/08 11:47:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:47:47 [notice] 23#23: gracefully shutting down
+2024/07/08 11:47:47 [notice] 22#22: gracefully shutting down
+2024/07/08 11:47:47 [notice] 22#22: exiting
+2024/07/08 11:47:47 [notice] 23#23: exiting
+2024/07/08 11:47:47 [notice] 22#22: exit
+2024/07/08 11:47:47 [notice] 23#23: exit
+2024/07/08 11:47:47 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:47:47 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:47:47 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:47:47 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:47:47 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:47:47 [notice] 1#1: exit
+2024/07/08 11:47:49 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:47:49 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:47:49 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:47:49 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:47:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:47:49 [notice] 1#1: start worker processes
+2024/07/08 11:47:49 [notice] 1#1: start worker process 22
+2024/07/08 11:47:49 [notice] 1#1: start worker process 23
+2024/07/08 11:47:53 [error] 22#22: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:47:53 [error] 22#22: *1 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:48:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:48:16 [notice] 22#22: gracefully shutting down
+2024/07/08 11:48:16 [notice] 22#22: exiting
+2024/07/08 11:48:16 [notice] 22#22: exit
+2024/07/08 11:48:16 [notice] 23#23: gracefully shutting down
+2024/07/08 11:48:16 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:48:16 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:48:16 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:48:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:48:28 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:48:28 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:48:28 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:48:28 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:48:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:48:28 [notice] 1#1: start worker processes
+2024/07/08 11:48:28 [notice] 1#1: start worker process 21
+2024/07/08 11:48:28 [notice] 1#1: start worker process 22
+2024/07/08 11:48:31 [error] 21#21: *1 "/etc/nginx/html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:48:31 [error] 21#21: *1 open() "/etc/nginx/html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/"
+2024/07/08 11:48:31 [error] 22#22: *2 open() "/etc/nginx/html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/"
+2024/07/08 11:48:31 [error] 21#21: *4 open() "/etc/nginx/html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/"
+2024/07/08 11:48:31 [error] 21#21: *5 open() "/etc/nginx/html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/"
+2024/07/08 11:48:31 [error] 21#21: *3 open() "/etc/nginx/html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/"
+2024/07/08 11:49:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:49:44 [notice] 22#22: gracefully shutting down
+2024/07/08 11:49:44 [notice] 22#22: exiting
+2024/07/08 11:49:44 [notice] 21#21: gracefully shutting down
+2024/07/08 11:49:44 [notice] 21#21: exiting
+2024/07/08 11:49:44 [notice] 22#22: exit
+2024/07/08 11:49:44 [notice] 21#21: exit
+2024/07/08 11:49:44 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/07/08 11:49:44 [notice] 1#1: worker process 21 exited with code 0
+2024/07/08 11:49:44 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:49:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:49:44 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:49:44 [notice] 1#1: exit
+2024/07/08 11:49:45 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:49:45 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:49:45 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:49:45 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:49:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:49:45 [notice] 1#1: start worker processes
+2024/07/08 11:49:45 [notice] 1#1: start worker process 22
+2024/07/08 11:49:45 [notice] 1#1: start worker process 23
+2024/07/08 11:49:56 [error] 23#23: *1 "/usr/share/nginx/html/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:49:56 [error] 23#23: *1 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:50:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:50:37 [notice] 23#23: gracefully shutting down
+2024/07/08 11:50:37 [notice] 22#22: gracefully shutting down
+2024/07/08 11:50:37 [notice] 22#22: exiting
+2024/07/08 11:50:37 [notice] 22#22: exit
+2024/07/08 11:50:37 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:50:37 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:50:37 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:50:43 [error] 23#23: *2 "/usr/share/nginx/html/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:50:43 [error] 23#23: *2 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:50:43 [notice] 23#23: exiting
+2024/07/08 11:50:43 [notice] 23#23: exit
+2024/07/08 11:50:44 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:50:44 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:50:44 [notice] 1#1: exit
+2024/07/08 11:50:46 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:50:46 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:50:46 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:50:46 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:50:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:50:46 [notice] 1#1: start worker processes
+2024/07/08 11:50:46 [notice] 1#1: start worker process 22
+2024/07/08 11:50:46 [notice] 1#1: start worker process 23
+2024/07/08 11:51:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:51:12 [notice] 22#22: gracefully shutting down
+2024/07/08 11:51:12 [notice] 22#22: exiting
+2024/07/08 11:51:12 [notice] 22#22: exit
+2024/07/08 11:51:12 [notice] 23#23: gracefully shutting down
+2024/07/08 11:51:12 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:51:12 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:51:12 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:51:23 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:51:23 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:51:23 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:51:23 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:51:23 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:51:23 [notice] 1#1: start worker processes
+2024/07/08 11:51:23 [notice] 1#1: start worker process 22
+2024/07/08 11:51:23 [notice] 1#1: start worker process 23
+2024/07/08 11:51:26 [error] 22#22: *1 "/usr/share/nginx/html/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:51:26 [error] 23#23: *2 open() "/usr/share/nginx/html/404.html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:51:26 [error] 22#22: *1 open() "/usr/share/nginx/html/404.html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:51:26 [error] 23#23: *3 open() "/usr/share/nginx/html/404.html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:51:26 [error] 23#23: *4 open() "/usr/share/nginx/html/404.html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:51:26 [error] 23#23: *5 open() "/usr/share/nginx/html/404.html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:02 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:52:02 [notice] 22#22: gracefully shutting down
+2024/07/08 11:52:02 [notice] 23#23: gracefully shutting down
+2024/07/08 11:52:02 [notice] 23#23: exiting
+2024/07/08 11:52:02 [notice] 23#23: exit
+2024/07/08 11:52:02 [notice] 22#22: exiting
+2024/07/08 11:52:02 [notice] 22#22: exit
+2024/07/08 11:52:02 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:52:02 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:52:02 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:52:02 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:52:02 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:52:02 [notice] 1#1: exit
+2024/07/08 11:52:04 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:52:04 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:52:04 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:52:04 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:52:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:52:04 [notice] 1#1: start worker processes
+2024/07/08 11:52:04 [notice] 1#1: start worker process 22
+2024/07/08 11:52:04 [notice] 1#1: start worker process 23
+2024/07/08 11:52:08 [error] 23#23: *1 "/usr/share/nginx/html/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:52:08 [error] 23#23: *1 open() "/usr/share/nginx/html/404.html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:08 [error] 22#22: *2 open() "/usr/share/nginx/html/404.html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:08 [error] 23#23: *3 open() "/usr/share/nginx/html/404.html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:08 [error] 23#23: *4 open() "/usr/share/nginx/html/404.html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:08 [error] 23#23: *5 open() "/usr/share/nginx/html/404.html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:11 [error] 23#23: *4 "/usr/share/nginx/html/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:52:11 [error] 23#23: *4 open() "/usr/share/nginx/html/404.html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:11 [error] 22#22: *2 open() "/usr/share/nginx/html/404.html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:11 [error] 23#23: *5 open() "/usr/share/nginx/html/404.html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:11 [error] 23#23: *3 open() "/usr/share/nginx/html/404.html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:11 [error] 23#23: *1 open() "/usr/share/nginx/html/404.html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:52:32 [notice] 23#23: gracefully shutting down
+2024/07/08 11:52:32 [notice] 22#22: gracefully shutting down
+2024/07/08 11:52:32 [notice] 23#23: exiting
+2024/07/08 11:52:32 [notice] 23#23: exit
+2024/07/08 11:52:32 [notice] 22#22: exiting
+2024/07/08 11:52:32 [notice] 22#22: exit
+2024/07/08 11:52:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:52:32 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:52:32 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:52:32 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:52:32 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:52:32 [notice] 1#1: exit
+2024/07/08 11:52:33 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:52:33 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:52:33 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:52:33 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:52:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:52:33 [notice] 1#1: start worker processes
+2024/07/08 11:52:33 [notice] 1#1: start worker process 21
+2024/07/08 11:52:33 [notice] 1#1: start worker process 22
+2024/07/08 11:52:36 [error] 21#21: *1 "/usr/share/nginx/html/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:52:37 [error] 21#21: *1 open() "/usr/share/nginx/html/404.html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:37 [error] 21#21: *2 open() "/usr/share/nginx/html/404.html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:37 [error] 22#22: *3 open() "/usr/share/nginx/html/404.html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:37 [error] 21#21: *4 open() "/usr/share/nginx/html/404.html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:52:37 [error] 21#21: *1 open() "/usr/share/nginx/html/404.html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:54:25 [notice] 21#21: gracefully shutting down
+2024/07/08 11:54:25 [notice] 21#21: exiting
+2024/07/08 11:54:25 [notice] 21#21: exit
+2024/07/08 11:54:25 [notice] 22#22: gracefully shutting down
+2024/07/08 11:54:25 [notice] 22#22: exiting
+2024/07/08 11:54:25 [notice] 22#22: exit
+2024/07/08 11:54:25 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/07/08 11:54:25 [notice] 1#1: worker process 21 exited with code 0
+2024/07/08 11:54:25 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:54:25 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:54:25 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:54:25 [notice] 1#1: exit
+2024/07/08 11:54:27 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:54:27 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:54:27 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:54:27 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:54:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:54:27 [notice] 1#1: start worker processes
+2024/07/08 11:54:27 [notice] 1#1: start worker process 22
+2024/07/08 11:54:27 [notice] 1#1: start worker process 23
+2024/07/08 11:54:32 [error] 22#22: *1 "/usr/share/nginx/html/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:54:32 [error] 22#22: *1 open() "/usr/share/nginx/html/404.html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:32 [error] 23#23: *2 open() "/usr/share/nginx/html/404.html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:32 [error] 23#23: *3 open() "/usr/share/nginx/html/404.html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:32 [error] 23#23: *4 open() "/usr/share/nginx/html/404.html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:32 [error] 23#23: *5 open() "/usr/share/nginx/html/404.html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:38 [error] 23#23: *5 "/usr/share/nginx/html/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:54:38 [error] 23#23: *5 open() "/usr/share/nginx/html/404.html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:38 [error] 22#22: *1 open() "/usr/share/nginx/html/404.html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:38 [error] 23#23: *4 open() "/usr/share/nginx/html/404.html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:38 [error] 23#23: *2 open() "/usr/share/nginx/html/404.html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:38 [error] 23#23: *3 open() "/usr/share/nginx/html/404.html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:41 [error] 23#23: *3 "/usr/share/nginx/html/404.html/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:54:41 [error] 23#23: *3 open() "/usr/share/nginx/html/404.html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:41 [error] 22#22: *1 open() "/usr/share/nginx/html/404.html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:41 [error] 23#23: *2 open() "/usr/share/nginx/html/404.html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:41 [error] 23#23: *4 open() "/usr/share/nginx/html/404.html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:41 [error] 23#23: *5 open() "/usr/share/nginx/html/404.html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404.html/js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/404.html/"
+2024/07/08 11:54:54 [error] 23#23: *5 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:55:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:55:32 [notice] 23#23: gracefully shutting down
+2024/07/08 11:55:32 [notice] 22#22: gracefully shutting down
+2024/07/08 11:55:32 [notice] 23#23: exiting
+2024/07/08 11:55:32 [notice] 23#23: exit
+2024/07/08 11:55:32 [notice] 22#22: exiting
+2024/07/08 11:55:32 [notice] 22#22: exit
+2024/07/08 11:55:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:55:32 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:55:32 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:55:32 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:55:32 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:55:32 [notice] 1#1: exit
+2024/07/08 11:55:33 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:55:33 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:55:33 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:55:33 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:55:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:55:33 [notice] 1#1: start worker processes
+2024/07/08 11:55:33 [notice] 1#1: start worker process 22
+2024/07/08 11:55:33 [notice] 1#1: start worker process 23
+2024/07/08 11:55:38 [error] 22#22: *1 open() "/usr/share/nginx/html/40" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /40 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:55:38 [error] 22#22: *1 open() "/usr/share/nginx/html/404/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /40 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:55:39 [error] 23#23: *3 open() "/usr/share/nginx/html/40" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /40 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:55:39 [error] 23#23: *3 open() "/usr/share/nginx/html/404/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /40 HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:56:12 [error] 22#22: *1 open() "/usr/share/nginx/html/web/page" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /page HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:56:12 [error] 22#22: *1 open() "/usr/share/nginx/html/404/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /page HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:56:13 [error] 23#23: *3 open() "/usr/share/nginx/html/web/page" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /page HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:56:13 [error] 23#23: *3 open() "/usr/share/nginx/html/404/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /page HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:56:18 [error] 22#22: *1 "/usr/share/nginx/html/web/page/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /page/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:56:18 [error] 22#22: *1 open() "/usr/share/nginx/html/404/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /page/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:56:18 [error] 23#23: *3 "/usr/share/nginx/html/web/page/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /page/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:56:18 [error] 23#23: *3 open() "/usr/share/nginx/html/404/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /page/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:56:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:56:53 [notice] 22#22: gracefully shutting down
+2024/07/08 11:56:53 [notice] 23#23: gracefully shutting down
+2024/07/08 11:56:53 [notice] 23#23: exiting
+2024/07/08 11:56:53 [notice] 23#23: exit
+2024/07/08 11:56:53 [notice] 22#22: exiting
+2024/07/08 11:56:53 [notice] 22#22: exit
+2024/07/08 11:56:53 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:56:53 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:56:53 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:56:53 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:56:53 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:56:53 [notice] 1#1: exit
+2024/07/08 11:56:54 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:56:54 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:56:54 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:56:54 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:56:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:56:54 [notice] 1#1: start worker processes
+2024/07/08 11:56:54 [notice] 1#1: start worker process 22
+2024/07/08 11:56:54 [notice] 1#1: start worker process 23
+2024/07/08 11:56:57 [error] 23#23: *1 "/web/page/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /page/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:56:57 [error] 23#23: *1 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /page/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:56:58 [error] 23#23: *3 "/web/page/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /page/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:56:58 [error] 23#23: *3 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /page/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:57:01 [error] 23#23: *1 open() "/usr/share/nginx/html/pa" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:57:01 [error] 23#23: *1 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:57:02 [error] 23#23: *3 open() "/usr/share/nginx/html/pa" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:57:02 [error] 23#23: *3 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:57:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:57:13 [notice] 23#23: gracefully shutting down
+2024/07/08 11:57:13 [notice] 23#23: exiting
+2024/07/08 11:57:13 [notice] 23#23: exit
+2024/07/08 11:57:13 [notice] 22#22: gracefully shutting down
+2024/07/08 11:57:13 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:57:13 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:57:13 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:57:26 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:57:26 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:57:26 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:57:26 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:57:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:57:26 [notice] 1#1: start worker processes
+2024/07/08 11:57:26 [notice] 1#1: start worker process 22
+2024/07/08 11:57:26 [notice] 1#1: start worker process 23
+2024/07/08 11:57:26 [error] 23#23: *1 open() "/usr/share/nginx/html/pa" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:57:26 [error] 23#23: *1 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:57:27 [error] 23#23: *4 open() "/usr/share/nginx/html/pa" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:57:27 [error] 23#23: *4 open() "/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 11:59:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 11:59:39 [notice] 22#22: gracefully shutting down
+2024/07/08 11:59:39 [notice] 22#22: exiting
+2024/07/08 11:59:39 [notice] 22#22: exit
+2024/07/08 11:59:39 [notice] 23#23: gracefully shutting down
+2024/07/08 11:59:39 [notice] 23#23: exiting
+2024/07/08 11:59:39 [notice] 23#23: exit
+2024/07/08 11:59:39 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 11:59:39 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 11:59:39 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 11:59:39 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 11:59:39 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 11:59:39 [notice] 1#1: exit
+2024/07/08 11:59:40 [notice] 1#1: using the "epoll" event method
+2024/07/08 11:59:40 [notice] 1#1: nginx/1.26.1
+2024/07/08 11:59:40 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 11:59:40 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 11:59:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 11:59:40 [notice] 1#1: start worker processes
+2024/07/08 11:59:40 [notice] 1#1: start worker process 22
+2024/07/08 11:59:40 [notice] 1#1: start worker process 23
+2024/07/08 11:59:45 [error] 22#22: *1 open() "/usr/share/nginx/html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 11:59:45 [error] 23#23: *3 open() "/usr/share/nginx/html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 11:59:45 [error] 23#23: *4 open() "/usr/share/nginx/html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 11:59:45 [error] 23#23: *5 open() "/usr/share/nginx/html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 11:59:45 [error] 22#22: *2 open() "/usr/share/nginx/html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 12:04:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 12:04:03 [notice] 23#23: gracefully shutting down
+2024/07/08 12:04:03 [notice] 23#23: exiting
+2024/07/08 12:04:03 [notice] 22#22: gracefully shutting down
+2024/07/08 12:04:03 [notice] 22#22: exiting
+2024/07/08 12:04:03 [notice] 23#23: exit
+2024/07/08 12:04:03 [notice] 22#22: exit
+2024/07/08 12:04:03 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 12:04:03 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 12:04:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 12:04:03 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 12:04:03 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 12:04:03 [notice] 1#1: exit
+2024/07/08 12:04:04 [notice] 1#1: using the "epoll" event method
+2024/07/08 12:04:04 [notice] 1#1: nginx/1.26.1
+2024/07/08 12:04:04 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 12:04:04 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 12:04:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 12:04:04 [notice] 1#1: start worker processes
+2024/07/08 12:04:04 [notice] 1#1: start worker process 22
+2024/07/08 12:04:04 [notice] 1#1: start worker process 23
+2024/07/08 12:04:11 [error] 23#23: *1 open() "/usr/share/nginx/html/pa" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:04:11 [error] 23#23: *1 open() "/usr/share/nginx/html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 12:04:11 [error] 22#22: *2 open() "/usr/share/nginx/html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 12:04:11 [error] 23#23: *1 open() "/usr/share/nginx/html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 12:04:11 [error] 23#23: *3 open() "/usr/share/nginx/html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 12:04:11 [error] 23#23: *4 open() "/usr/share/nginx/html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 12:04:12 [error] 23#23: *6 open() "/usr/share/nginx/html/pa" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:04:20 [error] 23#23: *4 open() "/usr/share/nginx/html/pa" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:04:20 [error] 22#22: *2 open() "/usr/share/nginx/html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 12:04:20 [error] 23#23: *4 open() "/usr/share/nginx/html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 12:04:20 [error] 23#23: *3 open() "/usr/share/nginx/html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 12:04:20 [error] 23#23: *5 open() "/usr/share/nginx/html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 12:04:20 [error] 23#23: *1 open() "/usr/share/nginx/html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/pa"
+2024/07/08 12:04:21 [error] 23#23: *6 open() "/usr/share/nginx/html/pa" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:08:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 12:08:47 [notice] 22#22: gracefully shutting down
+2024/07/08 12:08:47 [notice] 22#22: exiting
+2024/07/08 12:08:47 [notice] 22#22: exit
+2024/07/08 12:08:47 [notice] 23#23: gracefully shutting down
+2024/07/08 12:08:47 [notice] 23#23: exiting
+2024/07/08 12:08:47 [notice] 23#23: exit
+2024/07/08 12:08:47 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 12:08:47 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 12:08:47 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 12:08:47 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 12:08:47 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 12:08:47 [notice] 1#1: exit
+2024/07/08 12:08:49 [notice] 1#1: using the "epoll" event method
+2024/07/08 12:08:49 [notice] 1#1: nginx/1.26.1
+2024/07/08 12:08:49 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 12:08:49 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 12:08:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 12:08:49 [notice] 1#1: start worker processes
+2024/07/08 12:08:49 [notice] 1#1: start worker process 22
+2024/07/08 12:08:49 [notice] 1#1: start worker process 23
+2024/07/08 12:08:54 [error] 22#22: *1 open() "/usr/share/nginx/html/pa" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /pa HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:09:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 12:09:24 [notice] 22#22: gracefully shutting down
+2024/07/08 12:09:24 [notice] 23#23: gracefully shutting down
+2024/07/08 12:09:24 [notice] 23#23: exiting
+2024/07/08 12:09:24 [notice] 23#23: exit
+2024/07/08 12:09:24 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 12:09:24 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 12:09:24 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 12:09:27 [notice] 22#22: exiting
+2024/07/08 12:09:27 [notice] 22#22: exit
+2024/07/08 12:09:27 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 12:09:27 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 12:09:27 [notice] 1#1: exit
+2024/07/08 12:09:30 [notice] 1#1: using the "epoll" event method
+2024/07/08 12:09:30 [notice] 1#1: nginx/1.26.1
+2024/07/08 12:09:30 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 12:09:30 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 12:09:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 12:09:30 [notice] 1#1: start worker processes
+2024/07/08 12:09:30 [notice] 1#1: start worker process 22
+2024/07/08 12:09:30 [notice] 1#1: start worker process 23
+2024/07/08 12:13:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 12:13:49 [notice] 22#22: gracefully shutting down
+2024/07/08 12:13:49 [notice] 22#22: exiting
+2024/07/08 12:13:49 [notice] 23#23: gracefully shutting down
+2024/07/08 12:13:49 [notice] 23#23: exiting
+2024/07/08 12:13:49 [notice] 23#23: exit
+2024/07/08 12:13:49 [notice] 22#22: exit
+2024/07/08 12:13:49 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 12:13:49 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 12:13:49 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 12:13:49 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 12:13:49 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 12:13:49 [notice] 1#1: exit
+2024/07/08 12:13:50 [notice] 1#1: using the "epoll" event method
+2024/07/08 12:13:50 [notice] 1#1: nginx/1.26.1
+2024/07/08 12:13:50 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 12:13:50 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 12:13:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 12:13:50 [notice] 1#1: start worker processes
+2024/07/08 12:13:50 [notice] 1#1: start worker process 22
+2024/07/08 12:13:50 [notice] 1#1: start worker process 23
+2024/07/08 12:16:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 12:16:41 [notice] 23#23: gracefully shutting down
+2024/07/08 12:16:41 [notice] 23#23: exiting
+2024/07/08 12:16:41 [notice] 22#22: gracefully shutting down
+2024/07/08 12:16:41 [notice] 22#22: exiting
+2024/07/08 12:16:41 [notice] 23#23: exit
+2024/07/08 12:16:41 [notice] 22#22: exit
+2024/07/08 12:16:41 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 12:16:41 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 12:16:41 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 12:16:41 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 12:16:41 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 12:16:41 [notice] 1#1: exit
+2024/07/08 12:16:45 [notice] 1#1: using the "epoll" event method
+2024/07/08 12:16:45 [notice] 1#1: nginx/1.26.1
+2024/07/08 12:16:45 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 12:16:45 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 12:16:45 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 12:16:45 [notice] 1#1: start worker processes
+2024/07/08 12:16:45 [notice] 1#1: start worker process 22
+2024/07/08 12:16:45 [notice] 1#1: start worker process 23
+2024/07/08 12:16:55 [error] 22#22: *1 open() "/usr/share/nginx/html/web/xx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:16:55 [error] 22#22: *1 open() "/usr/share/nginx/html/web/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web/xx"
+2024/07/08 12:16:56 [error] 23#23: *3 open() "/usr/share/nginx/html/web/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web/xx"
+2024/07/08 12:16:56 [error] 23#23: *4 open() "/usr/share/nginx/html/web/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web/xx"
+2024/07/08 12:16:56 [error] 22#22: *2 open() "/usr/share/nginx/html/web/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web/xx"
+2024/07/08 12:16:56 [error] 23#23: *5 open() "/usr/share/nginx/html/web/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web/xx"
+2024/07/08 12:16:56 [error] 22#22: *6 open() "/usr/share/nginx/html/web/xx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:17:50 [error] 22#22: *2 open() "/usr/share/nginx/html/web/xx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:17:50 [error] 22#22: *2 open() "/usr/share/nginx/html/css/reset.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/reset.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web/xx"
+2024/07/08 12:17:50 [error] 23#23: *4 open() "/usr/share/nginx/html/js/jquery-3.0.0.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/jquery-3.0.0.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web/xx"
+2024/07/08 12:17:50 [error] 23#23: *5 open() "/usr/share/nginx/html/css/index.css" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /css/index.css HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web/xx"
+2024/07/08 12:17:50 [error] 23#23: *3 open() "/usr/share/nginx/html/js/index.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/index.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web/xx"
+2024/07/08 12:17:50 [error] 22#22: *1 open() "/usr/share/nginx/html/js/parallax.min.js" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /js/parallax.min.js HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web/xx"
+2024/07/08 12:17:51 [error] 22#22: *6 open() "/usr/share/nginx/html/web/xx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:18:50 [error] 23#23: *7 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102"
+2024/07/08 12:19:22 [error] 22#22: *8 open() "/usr/share/nginx/html/web/xx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:19:23 [error] 22#22: *8 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:19:23 [error] 22#22: *10 open() "/usr/share/nginx/html/web/xx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:20:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 12:20:28 [notice] 22#22: gracefully shutting down
+2024/07/08 12:20:28 [notice] 23#23: gracefully shutting down
+2024/07/08 12:20:28 [notice] 23#23: exiting
+2024/07/08 12:20:28 [notice] 23#23: exit
+2024/07/08 12:20:28 [notice] 22#22: exiting
+2024/07/08 12:20:28 [notice] 22#22: exit
+2024/07/08 12:20:28 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 12:20:28 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 12:20:28 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 12:20:28 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 12:20:28 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 12:20:28 [notice] 1#1: exit
+2024/07/08 12:20:29 [notice] 1#1: using the "epoll" event method
+2024/07/08 12:20:29 [notice] 1#1: nginx/1.26.1
+2024/07/08 12:20:29 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 12:20:29 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 12:20:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 12:20:29 [notice] 1#1: start worker processes
+2024/07/08 12:20:29 [notice] 1#1: start worker process 22
+2024/07/08 12:20:29 [notice] 1#1: start worker process 23
+2024/07/08 12:20:42 [error] 22#22: *1 open() "/usr/share/nginx/html/web/xx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:20:42 [error] 22#22: *1 open() "/usr/share/nginx/html/web/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:20:43 [error] 23#23: *3 open() "/usr/share/nginx/html/web/xx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:20:43 [error] 23#23: *3 open() "/usr/share/nginx/html/web/404/404.html" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:22:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 12:22:33 [notice] 23#23: gracefully shutting down
+2024/07/08 12:22:33 [notice] 22#22: gracefully shutting down
+2024/07/08 12:22:33 [notice] 23#23: exiting
+2024/07/08 12:22:33 [notice] 22#22: exiting
+2024/07/08 12:22:33 [notice] 23#23: exit
+2024/07/08 12:22:33 [notice] 22#22: exit
+2024/07/08 12:22:33 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 12:22:33 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 12:22:33 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 12:22:33 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 12:22:33 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 12:22:33 [notice] 1#1: exit
+2024/07/08 12:22:34 [emerg] 1#1: unexpected "}" in /etc/nginx/conf.d/base.conf:18
+2024/07/08 12:24:17 [emerg] 1#1: unexpected "}" in /etc/nginx/conf.d/base.conf:18
+2024/07/08 12:24:53 [notice] 1#1: using the "epoll" event method
+2024/07/08 12:24:53 [notice] 1#1: nginx/1.26.1
+2024/07/08 12:24:53 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 12:24:53 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 12:24:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 12:24:53 [notice] 1#1: start worker processes
+2024/07/08 12:24:53 [notice] 1#1: start worker process 21
+2024/07/08 12:24:53 [notice] 1#1: start worker process 22
+2024/07/08 12:24:54 [error] 21#21: *1 open() "/usr/share/nginx/html/xx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:24:55 [error] 21#21: *1 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:24:57 [error] 21#21: *4 open() "/usr/share/nginx/html/xx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:24:57 [error] 21#21: *4 open() "/usr/share/nginx/html/xx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /xx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:25:14 [error] 21#21: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:25:16 [error] 21#21: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:26:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 12:26:11 [notice] 21#21: gracefully shutting down
+2024/07/08 12:26:11 [notice] 21#21: exiting
+2024/07/08 12:26:11 [notice] 21#21: exit
+2024/07/08 12:26:11 [notice] 22#22: gracefully shutting down
+2024/07/08 12:26:11 [notice] 22#22: exiting
+2024/07/08 12:26:11 [notice] 22#22: exit
+2024/07/08 12:26:11 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2024/07/08 12:26:11 [notice] 1#1: worker process 21 exited with code 0
+2024/07/08 12:26:11 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 12:26:11 [notice] 1#1: exit
+2024/07/08 12:26:13 [notice] 1#1: using the "epoll" event method
+2024/07/08 12:26:13 [notice] 1#1: nginx/1.26.1
+2024/07/08 12:26:13 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 12:26:13 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 12:26:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 12:26:13 [notice] 1#1: start worker processes
+2024/07/08 12:26:13 [notice] 1#1: start worker process 22
+2024/07/08 12:26:13 [notice] 1#1: start worker process 23
+2024/07/08 12:26:17 [error] 23#23: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:26:17 [error] 23#23: *1 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:26:30 [error] 23#23: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/"
+2024/07/08 12:26:31 [error] 23#23: *1 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:27:04 [error] 23#23: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/"
+2024/07/08 12:27:04 [error] 23#23: *1 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:28:00 [error] 23#23: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:28:00 [error] 23#23: *1 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:28:39 [error] 23#23: *1 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:28:42 [error] 23#23: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:28:42 [error] 23#23: *1 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:28:50 [error] 23#23: *1 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:28:51 [error] 22#22: *4 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:28:51 [error] 22#22: *4 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/"
+2024/07/08 12:28:51 [error] 23#23: *7 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:29:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 12:29:44 [notice] 22#22: gracefully shutting down
+2024/07/08 12:29:44 [notice] 22#22: exiting
+2024/07/08 12:29:44 [notice] 22#22: exit
+2024/07/08 12:29:44 [notice] 23#23: gracefully shutting down
+2024/07/08 12:29:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 12:29:44 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 12:29:44 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 12:29:50 [notice] 23#23: exiting
+2024/07/08 12:29:50 [notice] 23#23: exit
+2024/07/08 12:29:50 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 12:29:50 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 12:29:50 [notice] 1#1: exit
+2024/07/08 12:29:52 [notice] 1#1: using the "epoll" event method
+2024/07/08 12:29:52 [notice] 1#1: nginx/1.26.1
+2024/07/08 12:29:52 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 12:29:52 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 12:29:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 12:29:52 [notice] 1#1: start worker processes
+2024/07/08 12:29:52 [notice] 1#1: start worker process 22
+2024/07/08 12:29:52 [notice] 1#1: start worker process 23
+2024/07/08 12:29:53 [error] 22#22: *1 "/usr/share/nginx/html/web/web/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:30:06 [error] 22#22: *1 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:30:12 [error] 22#22: *1 "/usr/share/nginx/html/web/web/index.html" is not found (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/ HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:30:12 [error] 22#22: *1 open() "/usr/share/nginx/html/404/js/parallax.min.js.map" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /404/js/parallax.min.js.map HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:32:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 12:32:21 [notice] 22#22: gracefully shutting down
+2024/07/08 12:32:21 [notice] 22#22: exiting
+2024/07/08 12:32:21 [notice] 22#22: exit
+2024/07/08 12:32:21 [notice] 23#23: gracefully shutting down
+2024/07/08 12:32:21 [notice] 23#23: exiting
+2024/07/08 12:32:21 [notice] 23#23: exit
+2024/07/08 12:32:21 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 12:32:21 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 12:32:21 [notice] 1#1: signal 29 (SIGIO) received
+2024/07/08 12:32:21 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/07/08 12:32:21 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 12:32:21 [notice] 1#1: exit
+2024/07/08 12:32:22 [notice] 1#1: using the "epoll" event method
+2024/07/08 12:32:22 [notice] 1#1: nginx/1.26.1
+2024/07/08 12:32:22 [notice] 1#1: built by gcc 13.2.1 20231014 (Alpine 13.2.1_git20231014) 
+2024/07/08 12:32:22 [notice] 1#1: OS: Linux 6.8.0-36-generic
+2024/07/08 12:32:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/07/08 12:32:22 [notice] 1#1: start worker processes
+2024/07/08 12:32:22 [notice] 1#1: start worker process 22
+2024/07/08 12:32:22 [notice] 1#1: start worker process 23
+2024/07/08 12:32:30 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/web/"
+2024/07/08 12:45:40 [error] 22#22: *6 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:45:43 [error] 22#22: *11 directory index of "/usr/share/nginx/html/" is forbidden, client: 192.168.56.1, server: localhost, request: "GET / HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:45:43 [error] 23#23: *8 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.56.102:81", referrer: "http://192.168.56.102:81/"
+2024/07/08 12:46:15 [error] 23#23: *8 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:46:16 [error] 22#22: *11 open() "/usr/share/nginx/html/web/xxx" failed (2: No such file or directory), client: 192.168.56.1, server: localhost, request: "GET /web/xxx HTTP/1.1", host: "192.168.56.102:81"
+2024/07/08 12:48:19 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/07/08 12:48:19 [notice] 22#22: gracefully shutting down
+2024/07/08 12:48:19 [notice] 22#22: exiting
+2024/07/08 12:48:19 [notice] 22#22: exit
+2024/07/08 12:48:19 [notice] 23#23: gracefully shutting down
+2024/07/08 12:48:19 [notice] 23#23: exiting
+2024/07/08 12:48:19 [notice] 23#23: exit
+2024/07/08 12:48:19 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/07/08 12:48:19 [notice] 1#1: worker process 22 exited with code 0
+2024/07/08 12:48:19 [notice] 1#1: worker process 23 exited with code 0
+2024/07/08 12:48:19 [notice] 1#1: exit

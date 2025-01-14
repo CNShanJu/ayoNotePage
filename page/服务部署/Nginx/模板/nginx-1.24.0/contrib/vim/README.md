@@ -1,0 +1,6 @@
+- [返回上一级 [contrib]](服务部署/Nginx/模板/nginx-1.24.0/contrib/)
+- [vim](服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/)
+  - [ftdetect](服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/ftdetect/)
+  - [ftplugin](服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/ftplugin/)
+  - [indent](服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/indent/)
+  - [syntax](服务部署/Nginx/模板/nginx-1.24.0/contrib/vim/syntax/)

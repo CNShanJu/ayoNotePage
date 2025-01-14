@@ -1,0 +1,2 @@
+- [返回上一级 [img]](后端/持续集成/jenkins/img/)
+- [6_使用私钥连接gitea](后端/持续集成/jenkins/img/6_使用私钥连接gitea/)

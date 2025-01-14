@@ -1,0 +1,5 @@
+- [返回上一级 [.github]](web前端/视频相关/plyr/plyr-3.7.8/.github/)
+- [ISSUE_TEMPLATE](web前端/视频相关/plyr/plyr-3.7.8/.github/ISSUE_TEMPLATE/)
+  - [bug](web前端/视频相关/plyr/plyr-3.7.8/.github/ISSUE_TEMPLATE/bug.md)
+  - [feature](web前端/视频相关/plyr/plyr-3.7.8/.github/ISSUE_TEMPLATE/feature.md)
+  - [improvement](web前端/视频相关/plyr/plyr-3.7.8/.github/ISSUE_TEMPLATE/improvement.md)

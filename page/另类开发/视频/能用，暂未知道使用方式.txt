@@ -1,0 +1,94 @@
+{
+
+"key": "q3c427",
+
+"id": 16,
+
+"name": "神马影院(niux云)",
+
+"api": "https://www.shenma4480.com/api.php/provide/vod/at/xml/",
+
+"download": "",
+
+"jiexiUrl": "",
+
+"group": "优质资源",
+
+"isActive": true
+
+},
+
+
+
+{
+
+"key": "Eoiow6",
+
+"id": 22,
+
+"name": "奇领yy6080",
+
+"api": "http://yyid6080.cn/api.php/provide/vod/at/xml/",
+
+"download": "",
+
+"jiexiUrl": "",
+
+"group": "优质资源",
+
+"isActive": true
+
+},
+
+
+{
+
+"key": "mwsYTd",
+
+"id": 48,
+
+"name": "帝国资源",
+
+"api": "http://www.yszydg.com/inc/api.php",
+
+"download": "",
+
+"jiexiUrl": "",
+
+"group": "切片资源",
+
+"isActive": true
+
+},
+
+
+{
+
+"key": "NH43CR",
+
+"id": 71,
+
+"name": "共青春影院",
+
+"api": "https://gqc.ink/api.php/provide/vod/at/xml/",
+
+"download": "",
+
+"jiexiUrl": "",
+
+"group": "三方聚合影视",
+
+"isActive": true
+
+},
+
+
+
+
+
+
+
+
+
+
+#18+ --------------------------------

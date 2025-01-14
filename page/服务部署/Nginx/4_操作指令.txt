@@ -1,0 +1,46 @@
+Windows
+
+
+#######################################################################################进程
+
+#查看所有的进程
+netstat -ano
+
+#查看某一个端口占用对应的进程(例如端口6173)
+netstat -ano|findstr 6173
+
+#查看nginx启动的进程
+tasklist /fi  "imagename eq nginx.exe"
+
+#杀死对应的进程(根据PID)   25720及7556
+taskkill  /f  /pid 25720 /pid 7556
+
+#查看  进程  命令使用方法
+tasklist   /?
+
+#根据名称杀死进程
+taskkill /f /t /im nginx.exe
+
+#######################################################################################Nginx
+
+#nginx服务启动
+start nginx
+
+#nginx服务销毁（直接销毁 => 可能丢失一些信息）
+nginx -s stop
+
+#nginx服务销毁（完整有序 => 可能保存一些信息）
+nginx -s quit
+
+#nginx重启
+nginx  -s reload
+
+#nginx日志
+ nginx -s reopen
+ 
+ #nginx查看配置信息是否有误(建议启动后执行确认一下 =>  nginx本身不会有启动失败还是成功的报错信息)
+ nginx -t
+
+#######################################################################################其他参考
+https://www.cnblogs.com/jiangwangxiang/p/8481661.html
+https://zhuanlan.zhihu.com/p/130819099

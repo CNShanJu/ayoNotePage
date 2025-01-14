@@ -1,0 +1,2 @@
+- [返回上一级 [img]](后端/持续集成/git/gitlab/img/)
+- [1_Gitlab 仓库搭建（详细版）](后端/持续集成/git/gitlab/img/1_Gitlab%20仓库搭建（详细版）/)

@@ -1,0 +1,15 @@
+iscroll 				普通版
+iscroll-probe 			复杂版
+iscroll-infinite		数据无限版
+
+
+iscroll有几中不同js文件，分别是普通本，复杂版，无限滚动版。
+这里常用的是复杂版，是支持实时监听滚动的位置的，如果不需要实时监听，可以用普通版。
+
+
+
+参考：https://juejin.cn/post/6844903847941390349
+https://blog.csdn.net/wxl1555/article/details/74989973
+
+
+https://iiunknown.gitbooks.io/iscroll-5-api-cn/content/basicfeatures.html

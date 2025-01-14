@@ -1,0 +1,11 @@
+{
+    "HomePath": "D:\\cache\\下载\\ayoNotePage\\page",
+    "DisableGenerateReadmeFile": false,
+    "IgnoreFile": [],
+    "IgnoreDir": [
+        ".git"
+    ],
+    "IgnoreDirNameContain": [
+        ".assets"
+    ]
+}

@@ -1,0 +1,2 @@
+- [返回上一级 [conf]](服务部署/Nginx/模板/nginx-1.24.0/conf/)
+- [conf.d](服务部署/Nginx/模板/nginx-1.24.0/conf/conf.d/)

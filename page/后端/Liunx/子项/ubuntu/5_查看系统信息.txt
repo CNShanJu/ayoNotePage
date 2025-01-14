@@ -1,0 +1,38 @@
+查看内核版本和系统信息：
+uname -a
+
+
+查看 Ubuntu 版本信息：
+lsb_release -a
+
+
+查看 /etc/os-release 文件，获取有关系统的详细信息：
+cat /etc/os-release
+
+
+查看主机名和操作系统信息：
+hostnamectl
+
+
+查看当前运行的进程、CPU 和内存使用情况：
+top
+
+
+如果安装了 htop（需要先安装）：
+htop
+
+
+查看内存使用情况：
+free -h
+
+
+CPU 信息：
+lscpu
+
+
+硬盘信息：
+lsblk
+
+
+设备信息：
+lshw -short

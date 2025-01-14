@@ -1,0 +1,12 @@
+开源地址：https://github.com/pixijs
+中文文档：https://pixi.nodejs.cn/8.x/guides/components/textures
+官方文档：https://pixijs.download/dev/docs/filters.DisplacementFilter.html#addResource
+官网：https://pixijs.com/8.x/guides
+参考：https://lining98.github.io/docs/visual/pixiJs/%E7%B2%BE%E7%81%B5%E4%B8%8E%E5%8A%A8%E7%94%BB
+
+
+过滤器
+开源地址：https://github.com/pixijs/filters
+文档：https://pixijs.io/filters/docs/
+
+视频：https://www.bilibili.com/video/BV1rG4y1M7MS?p=8&vd_source=b9f3f526148aca47f43254ea0e1e9e8f

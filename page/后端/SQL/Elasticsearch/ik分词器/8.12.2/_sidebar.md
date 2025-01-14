@@ -1,0 +1,2 @@
+- [返回上一级 [ik分词器]](后端/SQL/Elasticsearch/ik分词器/)
+- [8.12.2](后端/SQL/Elasticsearch/ik分词器/8.12.2/)

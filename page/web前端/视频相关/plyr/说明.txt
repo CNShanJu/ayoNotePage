@@ -1,0 +1,17 @@
+说明
+https://f2ex.cn/plyr-html5-media-player/
+https://zhuanlan.zhihu.com/p/472302295
+
+开源地址
+https://github.com/sampotts/plyr
+
+
+JS导入
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+或者
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
+CSS导入
+<link rel="stylesheet" href="path/to/plyr.css" />
+或者
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
